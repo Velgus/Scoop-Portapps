@@ -6,3 +6,12 @@ A [Scoop](https://scoop.sh/ "Scoop") bucket for the Portapps collection of porta
 Installation
 --------
 `scoop bucket add Portapps https://github.com/Velgus/Scoop-Portapps.git`
+
+Manifests
+--------
+All applications [available on Portapps](https://portapps.io/apps/) should be available here.
+
+All manifests can be listed by entering:
+`scoop search portapps`
+
+If you find that there isn't an equivalent manifest for an application available from Portapps, please [create an issue](https://github.com/Velgus/Scoop-Portapps/issues/new).
