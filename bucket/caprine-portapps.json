@@ -1,5 +1,5 @@
 {
-    "version": "2.33.1-11",
+    "version": "2.34.0-12",
     "description": "An elegant Facebook Messenger desktop app",
     "homepage": "https://sindresorhus.com/caprine/",
     "license": {
@@ -9,8 +9,8 @@
     "persist": "data",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/caprine-portable/releases/download/2.33.1-11/caprine-portable-win64-2.33.1-11.7z#/dl.7z",
-            "hash": "4d714f7e6deff9ffc070a298bb9cf90441ad0c00dcecb03de8ac6f57b913d33b"
+            "url": "https://github.com/portapps/caprine-portable/releases/download/2.34.0-12/caprine-portable-win64-2.34.0-12.7z#/dl.7z",
+            "hash": "c512cb091ccafc199886d7d103828a4696fef870a41200c1334888eb63489e32"
         }
     },
     "bin": "caprine-portable.exe",
@@ -33,5 +33,6 @@
         "hash": {
             "url": "$baseurl/checksums.txt"
         }
-    }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/caprine-portable/)"
 }

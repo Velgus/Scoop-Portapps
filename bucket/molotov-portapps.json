@@ -2,7 +2,7 @@
     "version": "4.0.0-7",
     "description": "An app to watch French TV free of charge",
     "homepage": "https://www.molotov.tv",
-    "license": "Proprietary",
+    "license": "Freeware",
     "persist": "data",
     "architecture": {
         "64bit": {
@@ -37,5 +37,6 @@
         "hash": {
             "url": "$baseurl/checksums.txt"
         }
-    }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/molotov-portable/)"
 }

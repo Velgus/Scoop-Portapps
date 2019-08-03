@@ -3,7 +3,7 @@
     "description": "A proprietary freeware VoIP application designed for gaming communities",
     "homepage": "https://discordapp.com/",
     "license": {
-        "identifier": "Proprietary",
+        "identifier": "Freeware",
         "url": "https://discordapp.com/terms"
     },
     "url": "https://github.com/portapps/discord-portable/releases/download/0.0.305-1/discord-portable-win32-0.0.305-1.7z#/dl.7z",
@@ -25,5 +25,6 @@
         "hash": {
             "url": "$baseurl/checksums.txt"
         }
-    }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/discord-portable/)"
 }

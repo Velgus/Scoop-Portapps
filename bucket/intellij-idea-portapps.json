@@ -2,7 +2,10 @@
     "version": "2019.2-28",
     "description": "Cross-Platform Java IDE for professional developers by JetBrains",
     "homepage": "https://www.jetbrains.com/idea/",
-    "license": "Apache-2.0",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/JetBrains/intellij-community/blob/master/LICENSE.txt"
+    },
     "innosetup": true,
     "persist": "data",
     "architecture": {
@@ -45,5 +48,6 @@
         "hash": {
             "url": "$baseurl/checksums.txt"
         }
-    }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/intellij-idea-community-portable/)"
 }

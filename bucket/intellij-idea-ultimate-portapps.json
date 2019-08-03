@@ -2,7 +2,10 @@
     "version": "2019.2-14",
     "description": "Cross-Platform Java IDE for professional developers by JetBrains",
     "homepage": "https://www.jetbrains.com/idea/",
-    "license": "Proprietary",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.jetbrains.com/store/terms/"
+    },
     "innosetup": true,
     "persist": "data",
     "architecture": {
@@ -45,5 +48,6 @@
         "hash": {
             "url": "$baseurl/checksums.txt"
         }
-    }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/intellij-idea-ultimate-portable/)"
 }

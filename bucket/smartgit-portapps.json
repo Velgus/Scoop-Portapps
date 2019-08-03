@@ -1,0 +1,38 @@
+{
+    "version": "18.2.9-8",
+    "description": "A graphical Git client with support for SVN and Pull Requests for GitHub and Bitbucket",
+    "homepage": "https://www.syntevo.com/smartgit/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.syntevo.com/smartgit/purchase/"
+    },
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/smartgit-portable/releases/download/18.2.9-8/smartgit-portable-win64-18.2.9-8.7z#/dl.7z",
+            "hash": "ee7098c580e448135faae0891865383bd72c9798cd9f2986b6e2322d36920881"
+        }
+    },
+    "bin": "smartgit-portable.exe",
+    "shortcuts": [
+        [
+            "smartgit-portable.exe",
+            "SmartGit"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/smartgit-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/smartgit-portable/releases/download/$version/smartgit-portable-win64-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/smartgit-portable/)"
+}

@@ -1,0 +1,45 @@
+{
+    "version": "1.36.1-13",
+    "description": "A source code editor developed by Microsoft for Windows, Linux and macOS",
+    "homepage": "https://code.visualstudio.com",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/microsoft/vscode/blob/master/LICENSE.txt"
+    },
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/vscode-portable/releases/download/1.36.1-13/vscode-portable-win64-1.36.1-13.7z#/dl.7z",
+            "hash": "3e98e91f25cf80d642f6246fe64bea2a419918f67921e9dba4a76ba43161a575"
+        },
+        "32bit": {
+            "url": "https://github.com/portapps/vscode-portable/releases/download/1.36.1-13/vscode-portable-win32-1.36.1-13.7z#/dl.7z",
+            "hash": "42a4dafcc82fd18cf0c6d5748a5e0388050f21686469680389f4e2dad639705a"
+        }
+    },
+    "bin": "vscode-portable.exe",
+    "shortcuts": [
+        [
+            "vscode-portable.exe",
+            "Visual Studio Code"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/vscode-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/vscode-portable/releases/download/$version/vscode-portable-win64-$version.7z#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/portapps/vscode-portable/releases/download/$version/vscode-portable-win32-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/vscode-portable/)"
+}

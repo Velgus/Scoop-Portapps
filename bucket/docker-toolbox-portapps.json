@@ -40,5 +40,6 @@
             "nonportable/virtualbox-np",
             "nonportable/virtualbox52-np"
         ]
-    }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/docker-toolbox-portable/)"
 }

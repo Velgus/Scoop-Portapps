@@ -1,0 +1,38 @@
+{
+    "version": "2.5.3-2",
+    "description": "An open source, self-hosted file share and communication platform",
+    "homepage": "https://nextcloud.com/",
+    "license": {
+        "identifier": "GPL-2.0-only",
+        "url": "https://github.com/nextcloud/desktop/blob/master/COPYING"
+    },
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/nextcloud-portable/releases/download/2.5.3-2/nextcloud-portable-win64-2.5.3-2.7z#/dl.7z",
+            "hash": "c72ba8e27e7eeebdf7447b39c3dabff1e078af958a70ab623ed5d5b54571d79d"
+        }
+    },
+    "bin": "nextcloud-portable.exe",
+    "shortcuts": [
+        [
+            "nextcloud-portable.exe",
+            "Nextcloud"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/nextcloud-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/nextcloud-portable/releases/download/$version/nextcloud-portable-win64-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/nextcloud-portable/)"
+}

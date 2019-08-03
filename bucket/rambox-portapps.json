@@ -1,0 +1,45 @@
+{
+    "version": "0.6.9-3",
+    "description": "A workspace browser that allows you to manage as many applications as you want, all in one place",
+    "homepage": "https://rambox.pro/#ce",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/ramboxapp/community-edition/blob/master/LICENSE"
+    },
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/rambox-portable/releases/download/0.6.9-3/rambox-portable-win64-0.6.9-3.7z#/dl.7z",
+            "hash": "12ef90df5b3678c531c83fa6c8407891c663d2ddb6b7f83ac5eff2fe3aa64eee"
+        },
+        "32bit": {
+            "url": "https://github.com/portapps/rambox-portable/releases/download/0.6.9-3/rambox-portable-win32-0.6.9-3.7z#/dl.7z",
+            "hash": "310264e026adf9cb298fcef6ec9bf544c1f19ef04c73669915a97192199d4df1"
+        }
+    },
+    "bin": "qbittorrent-portable.exe",
+    "shortcuts": [
+        [
+            "qbittorrent-portable.exe",
+            "qBittorrent"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/rambox-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/rambox-portable/releases/download/$version/rambox-portable-win64-$version.7z#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/portapps/rambox-portable/releases/download/$version/rambox-portable-win32-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/rambox-portable/)"
+}

@@ -1,0 +1,38 @@
+{
+    "version": "56.2.12-6",
+    "description": "An open-source web browser intended to be speedy, ethical and maintain support for legacy extensions",
+    "homepage": "https://www.waterfox.net",
+    "license": {
+        "identifier": "MPL-2.0",
+        "url": "https://github.com/MrAlex94/Waterfox/blob/master/LICENSE"
+    },
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/waterfox-portable/releases/download/56.2.12-6/waterfox-portable-win64-56.2.12-6.7z#/dl.7z",
+            "hash": "b8b8d4cbb79fad5884ea3e086fa8dfd64fde4022b5855451740c06dbf42ecbf9"
+        }
+    },
+    "bin": "waterfox-portable.exe",
+    "shortcuts": [
+        [
+            "waterfox-portable.exe",
+            "Waterfox"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/waterfox-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/waterfox-portable/releases/download/$version/waterfox-portable-win64-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/waterfox-portable/)"
+}

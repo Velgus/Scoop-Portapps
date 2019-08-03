@@ -1,0 +1,45 @@
+{
+    "version": "1.3.0-15",
+    "description": "An open source, free software instant messaging client based on the Matrix protocol",
+    "homepage": "https://about.riot.im/",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/vector-im/riot-web/blob/develop/LICENSE"
+    },
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/riot-portable/releases/download/1.3.0-15/riot-portable-win64-1.3.0-15.7z#/dl.7z",
+            "hash": "ac38d70243c78365c88a0cd551b426ef12fac6eb20eee88dcaab37922932a02b"
+        },
+        "32bit": {
+            "url": "https://github.com/portapps/riot-portable/releases/download/1.3.0-15/riot-portable-win32-1.3.0-15.7z#/dl.7z",
+            "hash": "274548e580af8d932ce858edcdd9740095c86e6bb57a7fd04fcd638436a577ea"
+        }
+    },
+    "bin": "riot-portable.exe",
+    "shortcuts": [
+        [
+            "riot-portable.exe",
+            "Riot"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/riot-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/riot-portable/releases/download/$version/riot-portable-win64-$version.7z#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/portapps/riot-portable/releases/download/$version/riot-portable-win32-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/riot-portable/)"
+}

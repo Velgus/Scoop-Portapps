@@ -1,0 +1,45 @@
+{
+    "version": "3.3.0-13",
+    "description": "A VoIP app for audio communication between users on a chat channel",
+    "homepage": "https://www.teamspeak.com/en/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.teamspeak.com/en/features/licensing/"
+    },
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/teamspeak-client-portable/releases/download/3.3.0-13/teamspeak-client-portable-win64-3.3.0-13.7z#/dl.7z",
+            "hash": "2609b8a594616ba9d81a6e5aebc9b0f034fbb14e22f481580a6f55fed599c0d7"
+        },
+        "32bit": {
+            "url": "https://github.com/portapps/teamspeak-client-portable/releases/download/3.3.0-13/teamspeak-client-portable-win32-3.3.0-13.7z#/dl.7z",
+            "hash": "69316c6679c8056d0b42a86f386d0dc3efffe22c0509b5137d0364a25e21901b"
+        }
+    },
+    "bin": "teamspeak-client-portable.exe",
+    "shortcuts": [
+        [
+            "teamspeak-client-portable.exe",
+            "TeamSpeak 3"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/teamspeak-client-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/teamspeak-client-portable/releases/download/$version/teamspeak-client-portable-win64-$version.7z#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/portapps/teamspeak-client-portable/releases/download/$version/teamspeak-client-portable-win32-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/teamspeak-client-portable/)"
+}
