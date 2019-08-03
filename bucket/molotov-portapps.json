@@ -1,0 +1,41 @@
+{
+    "version": "4.0.0-7",
+    "description": "An app to watch French TV free of charge",
+    "homepage": "https://www.molotov.tv",
+    "license": "Proprietary",
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/molotov-portable/releases/download/4.0.0-7/molotov-portable-win64-4.0.0-7.7z#/dl.7z",
+            "hash": "f84962b36521cfa135b0deaf1001b4fcfb0a228740cbe31b17ccfda42512c0ae"
+        },
+        "32bit": {
+            "url": "https://github.com/portapps/molotov-portable/releases/download/4.0.0-7/molotov-portable-win32-4.0.0-7.7z#/dl.7z",
+            "hash": "db541f620c4e04ceb7ff12410ccfac4f504db5c256a0f9cb0024679101164e93"
+        }
+    },
+    "bin": "molotov-portable.exe",
+    "shortcuts": [
+        [
+            "molotov-portable.exe",
+            "Molotov"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/molotov-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/molotov-portable/releases/download/$version/molotov-portable-win64-$version.7z#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/portapps/molotov-portable/releases/download/$version/molotov-portable-win32-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

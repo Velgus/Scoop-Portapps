@@ -1,0 +1,34 @@
+{
+    "version": "1.2.2-3",
+    "description": "A tool for converting video from nearly any format to a selection of modern, widely supported codecs",
+    "homepage": "https://handbrake.fr/",
+    "license": "https://github.com/HandBrake/HandBrake/blob/master/LICENSE",
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/handbrake-portable/releases/download/1.2.2-3/handbrake-portable-win64-1.2.2-3.7z#/dl.7z",
+            "hash": "2e481f911fc2d140c762cd4d0ede554c48e768b0db41e18f2bfe6e0ec4098662"
+        }
+    },
+    "bin": "handbrake-portable.exe",
+    "shortcuts": [
+        [
+            "handbrake-portable.exe",
+            "Handbrake"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/handbrake-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/handbrake-portable/releases/download/$version/handbrake-portable-win64-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

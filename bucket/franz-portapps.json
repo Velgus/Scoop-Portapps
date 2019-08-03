@@ -1,0 +1,44 @@
+{
+    "version": "5.2.0-4",
+    "description": "Messaging app for WhatsApp, Slack, Telegram, HipChat, Hangouts and many many more",
+    "homepage": "https://meetfranz.com",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/meetfranz/franz/blob/master/LICENSE"
+    },
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/franz-portable/releases/download/5.2.0-4/franz-portable-win64-5.2.0-4.7z#/dl.7z",
+            "hash": "81e3af6d5b6b7059ced8280f9a9e806983bed138b96586e84d96485f1c05058a"
+        },
+        "32bit": {
+            "url": "https://github.com/portapps/franz-portable/releases/download/5.2.0-4/franz-portable-win32-5.2.0-4.7z#/dl.7z",
+            "hash": "c736df504008defc93e2121a1eaa8b5bf712de97608ba0d06c19be706512d024"
+        }
+    },
+    "bin": "franz-portable.exe",
+    "shortcuts": [
+        [
+            "franz-portable.exe",
+            "Franz"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/franz-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/franz-portable/releases/download/$version/franz-portable-win64-$version.7z#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/portapps/franz-portable/releases/download/$version/franz-portable-win32-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

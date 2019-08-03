@@ -1,0 +1,29 @@
+{
+    "version": "0.71.0.7-9",
+    "description": "A fork of PuTTY, the best telnet / SSH client in the world",
+    "homepage": "http://www.9bis.net/kitty/#!index.md",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/cyd01/KiTTY/blob/master/LICENCE.TXT"
+    },
+    "url": "https://github.com/portapps/kitty-portable/releases/download/0.71.0.7-9/kitty-portable-win32-0.71.0.7-9.7z#/dl.7z",
+    "hash": "771fd06588ab5111475f9b7d7f837b6044e6db0fb95f6c82882f6a04c822d898",
+    "persist": "data",
+    "bin": "kitty-portable.exe",
+    "shortcuts": [
+        [
+            "kitty-portable.exe",
+            "KiTTY"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/kitty-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/portapps/kitty-portable/releases/download/$version/kitty-portable-win32-$version.7z#/dl.7z",
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

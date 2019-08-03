@@ -1,0 +1,30 @@
+{
+    "version": "3.4.2-4",
+    "description": "The official IDE for Google's Android operating system",
+    "homepage": "https://developer.android.com/studio/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://developer.android.com/studio/terms.html"
+    },
+    "url": "https://github.com/portapps/android-studio-portable/releases/download/3.4.2-4/android-studio-portable-win64-3.4.2-4-setup.exe",
+    "hash": "561c2715f6873a2d55aabd612a76f92eb921beb88f03c042fcfa9cb441db5621",
+    "innosetup": true,
+    "persist": "data",
+    "bin": "android-studio-portable.exe",
+    "shortcuts": [
+        [
+            "android-studio-portable.exe",
+            "Android Studio"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/android-studio-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/portapps/android-studio-portable/releases/download/$version/android-studio-portable-win64-$version-setup.exe",
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

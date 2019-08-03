@@ -1,0 +1,44 @@
+{
+    "version": "69.0b4-16",
+    "description": "Developer Edition of Firefox web browser developed by The Mozilla Foundation",
+    "homepage": "https://www.mozilla.org/en-US/firefox/developer/",
+    "license": {
+        "identifier": "MPL-2.0",
+        "url": "https://www.mozilla.org/en-US/about/legal/terms/firefox/"
+    },
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/firefox-developer-portable/releases/download/69.0b4-16/firefox-developer-portable-win32-69.0b4-16.7z#/dl.7z",
+            "hash": "7c008f57e96b729ee43dba81114d9ab78e7e5b086e94102250d9fa825a17c31d"
+        },
+        "32bit": {
+            "url": "https://github.com/portapps/firefox-developer-portable/releases/download/69.0b4-16/firefox-developer-portable-win64-69.0b4-16.7z#/dl.7z",
+            "hash": "3267c6e4785f8c7088624865653d83ca08b5ffd6911dddc71dab14e4e5dae26e"
+        }
+    },
+    "bin": "firefox-developer-portable.exe",
+    "shortcuts": [
+        [
+            "firefox-developer-portable.exe",
+            "Firefox Developer Edition"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/firefox-developer-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([b\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/firefox-developer-portable/releases/download/$version/firefox-developer-portable-win32-$version.7z#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/portapps/firefox-developer-portable/releases/download/$version/firefox-developer-portable-win64-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

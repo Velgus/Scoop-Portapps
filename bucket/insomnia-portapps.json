@@ -1,0 +1,37 @@
+{
+    "version": "6.5.4-8",
+    "description": "Debug APIs like a human, not a robot",
+    "homepage": "https://insomnia.rest",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/getinsomnia/insomnia/blob/develop/LICENSE"
+    },
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/insomnia-portable/releases/download/6.5.4-8/insomnia-portable-win64-6.5.4-8.7z#/dl.7z",
+            "hash": "7660246662eedb375fe9234fa6ff1374653853c6570622adecf0b9453efbbc40"
+        }
+    },
+    "bin": "insomnia-portable.exe",
+    "shortcuts": [
+        [
+            "insomnia-portable.exe",
+            "Insomnia"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/insomnia-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/insomnia-portable/releases/download/$version/insomnia-portable-win64-$version.7z#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

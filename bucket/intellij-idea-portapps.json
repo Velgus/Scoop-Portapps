@@ -1,0 +1,49 @@
+{
+    "version": "2019.2-28",
+    "description": "Cross-Platform Java IDE for professional developers by JetBrains",
+    "homepage": "https://www.jetbrains.com/idea/",
+    "license": "Apache-2.0",
+    "innosetup": true,
+    "persist": "data",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/intellij-idea-community-portable/releases/download/2019.2-28/intellij-idea-community-portable-win64-2019.2-28-setup.exe",
+            "hash": "1e3267d5d07f9491c4e5537c98c6c51de03481f3ae3470a5beae949ce690145b",
+            "bin": "intellij-idea-community-portable-win64.exe",
+            "shortcuts": [
+                [
+                    "intellij-idea-community-portable-win64.exe",
+                    "IntelliJ IDEA Community"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/portapps/intellij-idea-community-portable/releases/download/2019.2-28/intellij-idea-community-portable-win32-2019.2-28-setup.exe",
+            "hash": "30c1bfdd541062666a5c96317e475f39d26535e3785903f4d9f52eb25038a03e",
+            "bin": "intellij-idea-community-portable-win32.exe",
+            "shortcuts": [
+                [
+                    "intellij-idea-community-portable-win32.exe",
+                    "IntelliJ IDEA Community"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://github.com/portapps/intellij-idea-community-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/intellij-idea-community-portable/releases/download/$version/intellij-idea-community-portable-win64-$version-setup.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/portapps/intellij-idea-community-portable/releases/download/$version/intellij-idea-community-portable-win32-$version-setup.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

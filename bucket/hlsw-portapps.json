@@ -1,0 +1,26 @@
+{
+    "version": "1.4.0.3-1",
+    "description": "A game server browser and administration tool",
+    "homepage": "http://hlsw.org/",
+    "license": "Freeware",
+    "url": "https://github.com/portapps/hlsw-portable/releases/download/1.4.0.3-1/hlsw-portable-win32-1.4.0.3-1.7z#/dl.7z",
+    "hash": "ee2549cfdeb6449708e502336b7dc28ea31e898676795494b83ab58441ebac35",
+    "persist": "data",
+    "bin": "hlsw-portable.exe",
+    "shortcuts": [
+        [
+            "hlsw-portable.exe",
+            "HLSW"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/hlsw-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/portapps/hlsw-portable/releases/download/$version/hlsw-portable-win32-$version.7z#/dl.7z",
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

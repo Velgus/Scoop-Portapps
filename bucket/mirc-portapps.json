@@ -1,0 +1,26 @@
+{
+    "version": "7.57-6",
+    "description": "An Internet Relay Chat (IRC) client for Windows",
+    "homepage": "https://www.mirc.com/",
+    "license": "Shareware",
+    "url": "https://github.com/portapps/mirc-portable/releases/download/7.57-6/mirc-portable-win32-7.57-6.7z#/dl.7z",
+    "hash": "8b333c4b7be48f4e70e845eabb6086c7528c0f5a8f59a0ab9ad85cc9e83e58d3",
+    "persist": "data",
+    "bin": "mirc-portable.exe",
+    "shortcuts": [
+        [
+            "mirc-portable.exe",
+            "mIRC"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/portapps/mirc-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/portapps/mirc-portable/releases/download/$version/mirc-portable-win32-$version.7z#/dl.7z",
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
