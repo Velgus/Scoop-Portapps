@@ -9,11 +9,11 @@
     "url": "https://github.com/portapps/skype-portable/releases/download/8.50.0.38-66/skype-portable-win32-8.50.0.38-66.7z#/dl.7z",
     "hash": "ca62760bd4577898e4366d662613b4197afbec7e76eb0ea44cd4eddc1a05a0ea",
     "persist": "data",
-    "bin": "mremoteng-portable.exe",
+    "bin": "skype-portable.exe",
     "shortcuts": [
         [
-            "mremoteng-portable.exe",
-            "mRemoteNG"
+            "skype-portable.exe",
+            "Skype"
         ]
     ],
     "checkver": {
