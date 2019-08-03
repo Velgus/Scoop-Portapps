@@ -6,7 +6,10 @@
         "identifier": "MPL-2.0",
         "url": "https://github.com/MrAlex94/Waterfox/blob/master/LICENSE"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "waterfox-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/waterfox-portable/releases/download/56.2.12-6/waterfox-portable-win64-56.2.12-6.7z#/dl.7z",
@@ -20,6 +23,7 @@
             "Waterfox"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\waterfox-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/waterfox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

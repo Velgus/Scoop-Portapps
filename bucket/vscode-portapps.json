@@ -6,7 +6,10 @@
         "identifier": "MIT",
         "url": "https://github.com/microsoft/vscode/blob/master/LICENSE.txt"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "vscode-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/vscode-portable/releases/download/1.36.1-13/vscode-portable-win64-1.36.1-13.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "Visual Studio Code"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\vscode-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/vscode-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

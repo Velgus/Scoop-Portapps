@@ -6,7 +6,10 @@
         "identifier": "MPL-2.0",
         "url": "https://www.mozilla.org/en-US/about/legal/terms/firefox/"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "firefox-esr-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/firefox-esr-portable/releases/download/60.8.0-16/firefox-esr-portable-win32-60.8.0-16.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "Firefox ESR"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\firefox-esr-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/firefox-esr-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

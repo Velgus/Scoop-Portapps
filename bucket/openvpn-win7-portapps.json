@@ -6,7 +6,10 @@
         "identifier": "GPL-2.0-only",
         "url": "https://openvpn.net/terms/"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "openvpn-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/openvpn-portable/releases/download/2.4.7-I607-Win7-4/openvpn-portable-win64-2.4.7-I607-Win7-4.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "OpenVPN"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\openvpn-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/openvpn-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([I\\d.-]+Win7-[\\d]+)"

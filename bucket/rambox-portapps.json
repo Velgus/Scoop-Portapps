@@ -6,7 +6,10 @@
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/ramboxapp/community-edition/blob/master/LICENSE"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "rambox-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/rambox-portable/releases/download/0.6.9-3/rambox-portable-win64-0.6.9-3.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "qBittorrent"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\rambox-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/rambox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -8,7 +8,10 @@
     },
     "url": "https://github.com/portapps/discord-portable/releases/download/0.0.305-1/discord-portable-win32-0.0.305-1.7z#/dl.7z",
     "hash": "20abf70308ca9362e1b942e024810c2b77fa974b6036c18fea67da307ae5cd89",
-    "persist": "data",
+    "persist": [
+        "data",
+        "discord-portable.yml"
+    ],
     "bin": "discord-portable.exe",
     "shortcuts": [
         [
@@ -16,6 +19,7 @@
             "Discord"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\discord-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/discord-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

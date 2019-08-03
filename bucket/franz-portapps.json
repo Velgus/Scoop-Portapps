@@ -6,7 +6,10 @@
         "identifier": "Apache-2.0",
         "url": "https://github.com/meetfranz/franz/blob/master/LICENSE"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "franz-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/franz-portable/releases/download/5.2.0-4/franz-portable-win64-5.2.0-4.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "Franz"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\franz-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/franz-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

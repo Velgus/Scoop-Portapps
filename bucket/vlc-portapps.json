@@ -6,7 +6,10 @@
         "identifier": "GPL-2.0-only",
         "url": "https://www.videolan.org/legal.html"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "vlc-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/vlc-portable/releases/download/3.0.7.1-6/vlc-portable-win64-3.0.7.1-6.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "VLC"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\vlc-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/vlc-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

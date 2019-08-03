@@ -6,7 +6,10 @@
         "identifier": "Apache-2.0",
         "url": "https://github.com/docker/toolbox/blob/master/LICENSE/LICENSE"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "docker-toolbox-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/docker-toolbox-portable/releases/download/18.09.3-5/docker-toolbox-portable-win64-18.09.3-5.7z#/dl.7z",
@@ -20,6 +23,7 @@
             "Docker Toolbox"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\docker-toolbox-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/docker-toolbox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

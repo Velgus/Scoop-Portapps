@@ -6,7 +6,10 @@
         "identifier": "Freeware",
         "url": "https://www.syntevo.com/smartgit/purchase/"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "smartgit-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/smartgit-portable/releases/download/18.2.9-8/smartgit-portable-win64-18.2.9-8.7z#/dl.7z",
@@ -20,6 +23,7 @@
             "SmartGit"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\smartgit-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/smartgit-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

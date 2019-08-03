@@ -6,7 +6,10 @@
         "identifier": "GPL-2.0-only",
         "url": "https://www.wireshark.org/faq.html"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "wireshark-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/wireshark-portable/releases/download/3.0.3-2/wireshark-portable-win64-3.0.3-2.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "Wireshark"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\wireshark-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/wireshark-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

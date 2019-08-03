@@ -6,7 +6,10 @@
         "identifier": "MIT",
         "url": "https://github.com/getinsomnia/insomnia/blob/develop/LICENSE"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "insomnia-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/insomnia-portable/releases/download/6.5.4-8/insomnia-portable-win64-6.5.4-8.7z#/dl.7z",
@@ -20,6 +23,7 @@
             "Insomnia"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\insomnia-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/insomnia-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

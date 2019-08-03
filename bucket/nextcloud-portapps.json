@@ -6,7 +6,10 @@
         "identifier": "GPL-2.0-only",
         "url": "https://github.com/nextcloud/desktop/blob/master/COPYING"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "nextcloud-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/nextcloud-portable/releases/download/2.5.3-2/nextcloud-portable-win64-2.5.3-2.7z#/dl.7z",
@@ -20,6 +23,7 @@
             "Nextcloud"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\nextcloud-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/nextcloud-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

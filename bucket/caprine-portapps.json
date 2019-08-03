@@ -6,7 +6,10 @@
         "identifier": "MIT",
         "url": "https://github.com/sindresorhus/caprine/blob/master/license"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "caprine-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/caprine-portable/releases/download/2.34.0-12/caprine-portable-win64-2.34.0-12.7z#/dl.7z",
@@ -20,6 +23,7 @@
             "Caprine"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\caprine-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/caprine-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

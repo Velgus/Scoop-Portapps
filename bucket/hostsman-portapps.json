@@ -8,7 +8,10 @@
     },
     "url": "https://github.com/portapps/hostsman-portable/releases/download/4.8.106-10/hostsman-portable-win32-4.8.106-10.7z#/dl.7z",
     "hash": "b017c1a5cb74ed4662b6befbd45c215828b090ce70ebaf1ff1917387f58de0a7",
-    "persist": "data",
+    "persist": [
+        "data",
+        "hostsman-portable.yml"
+    ],
     "bin": "hostsman-portable.exe",
     "shortcuts": [
         [
@@ -16,6 +19,7 @@
             "HostsMan"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\hostsman-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/hostsman-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

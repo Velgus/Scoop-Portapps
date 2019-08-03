@@ -6,7 +6,10 @@
         "identifier": "MIT",
         "url": "https://github.com/VSCodium/vscodium/blob/master/LICENSE"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "vscodium-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/vscodium-portable/releases/download/1.36.1-23/vscodium-portable-win64-1.36.1-23.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "VSCodium"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\vscodium-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/vscodium-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

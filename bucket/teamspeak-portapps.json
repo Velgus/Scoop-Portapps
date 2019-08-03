@@ -6,7 +6,10 @@
         "identifier": "Freeware",
         "url": "https://www.teamspeak.com/en/features/licensing/"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "teamspeak-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/teamspeak-client-portable/releases/download/3.3.0-13/teamspeak-client-portable-win64-3.3.0-13.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "TeamSpeak 3"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\teamspeak-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/teamspeak-client-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

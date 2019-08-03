@@ -8,7 +8,10 @@
     },
     "url": "https://github.com/portapps/borderless-gaming-portable/releases/download/9.5.5-2/borderless-gaming-portable-win32-9.5.5-2.7z#/dl.7z",
     "hash": "1c878137de0902761ac9706145e59c83d9d4a8a6b718a2402f5cf440444bd97c",
-    "persist": "data",
+    "persist": [
+        "data",
+        "borderless-gaming-portable.yml"
+    ],
     "bin": "borderless-gaming-portable.exe",
     "shortcuts": [
         [
@@ -16,6 +19,7 @@
             "Borderless Gaming"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\borderless-gaming-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/borderless-gaming-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -5,7 +5,10 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/portapps/gnupg-portable/releases/download/2.2.17-3/gnupg-portable-win32-2.2.17-3.7z#/dl.7z",
     "hash": "1c040716245c9b357ab214704434dc8be86cac90f871f90089eb9d2089fe3903",
-    "persist": "data",
+    "persist": [
+        "data",
+        "gnupg-portable.yml"
+    ],
     "bin": "gnupg-portable.exe",
     "shortcuts": [
         [
@@ -13,6 +16,7 @@
             "GnuPG"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\gnupg-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/gnupg-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

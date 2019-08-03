@@ -9,7 +9,10 @@
     "url": "https://github.com/portapps/android-studio-portable/releases/download/3.4.2-4/android-studio-portable-win64-3.4.2-4-setup.exe",
     "hash": "561c2715f6873a2d55aabd612a76f92eb921beb88f03c042fcfa9cb441db5621",
     "innosetup": true,
-    "persist": "data",
+    "persist": [
+        "data",
+        "android-studio-portable.yml"
+    ],
     "bin": "android-studio-portable.exe",
     "shortcuts": [
         [
@@ -17,6 +20,7 @@
             "Android Studio"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\android-studio-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/android-studio-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

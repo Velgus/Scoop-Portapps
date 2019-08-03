@@ -8,7 +8,10 @@
     },
     "url": "https://github.com/portapps/mremoteng-portable/releases/download/1.76.20-9/mremoteng-portable-win32-1.76.20-9.7z#/dl.7z",
     "hash": "cf348b533e45995b2c339feb47303681896a3816d449e1104ada0e8c8b28a111",
-    "persist": "data",
+    "persist": [
+        "data",
+        "mremoteng-portable.yml"
+    ],
     "bin": "mremoteng-portable.exe",
     "shortcuts": [
         [
@@ -16,6 +19,7 @@
             "mRemoteNG"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\mremoteng-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/mremoteng-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -3,7 +3,10 @@
     "description": "A tool for converting video from nearly any format to a selection of modern, widely supported codecs",
     "homepage": "https://handbrake.fr/",
     "license": "https://github.com/HandBrake/HandBrake/blob/master/LICENSE",
-    "persist": "data",
+    "persist": [
+        "data",
+        "handbrake-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/handbrake-portable/releases/download/1.2.2-3/handbrake-portable-win64-1.2.2-3.7z#/dl.7z",
@@ -17,6 +20,7 @@
             "Handbrake"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\handbrake-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/handbrake-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

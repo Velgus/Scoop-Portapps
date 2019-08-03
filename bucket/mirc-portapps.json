@@ -5,7 +5,10 @@
     "license": "Shareware",
     "url": "https://github.com/portapps/mirc-portable/releases/download/7.57-6/mirc-portable-win32-7.57-6.7z#/dl.7z",
     "hash": "8b333c4b7be48f4e70e845eabb6086c7528c0f5a8f59a0ab9ad85cc9e83e58d3",
-    "persist": "data",
+    "persist": [
+        "data",
+        "mirc-portable.yml"
+    ],
     "bin": "mirc-portable.exe",
     "shortcuts": [
         [
@@ -13,6 +16,7 @@
             "mIRC"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\mirc-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/mirc-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -3,7 +3,10 @@
     "description": "An app to watch French TV free of charge",
     "homepage": "https://www.molotov.tv",
     "license": "Freeware",
-    "persist": "data",
+    "persist": [
+        "data",
+        "molotov-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/molotov-portable/releases/download/4.0.0-7/molotov-portable-win64-4.0.0-7.7z#/dl.7z",
@@ -21,6 +24,7 @@
             "Molotov"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\molotov-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/molotov-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

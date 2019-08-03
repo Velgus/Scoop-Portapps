@@ -6,7 +6,10 @@
         "identifier": "MPL-2.0",
         "url": "https://github.com/brave/brave-browser/blob/master/LICENSE"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "brave-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/brave-portable/releases/download/0.66.101-26/brave-portable-win64-0.66.101-26.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "Brave"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\brave-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/brave-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

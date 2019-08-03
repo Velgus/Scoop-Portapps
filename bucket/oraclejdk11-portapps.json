@@ -17,6 +17,7 @@
             "Oracle JDK 11"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\oracle-jdk-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/oracle-jdk-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?(11[\\d.-]+)"

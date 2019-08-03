@@ -6,7 +6,10 @@
         "identifier": "MIT",
         "url": "https://github.com/beakerbrowser/beaker/blob/master/LICENSE"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "beaker-browser-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/beaker-browser-portable/releases/download/0.8.8-2/beaker-browser-portable-win64-0.8.8-2.7z#/dl.7z",
@@ -20,6 +23,7 @@
             "Beaker"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\beaker-browser-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/beaker-browser-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

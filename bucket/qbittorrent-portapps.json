@@ -6,7 +6,10 @@
         "identifier": "GPL-2.0-only",
         "url": "https://github.com/qbittorrent/qBittorrent/blob/master/COPYING"
     },
-    "persist": "data",
+    "persist": [
+        "data",
+        "qbittorrent-portable.yml"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/portapps/qbittorrent-portable/releases/download/4.1.6-4/qbittorrent-portable-win64-4.1.6-4.7z#/dl.7z",
@@ -24,6 +27,7 @@
             "qBittorrent"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\qbittorrent-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/qbittorrent-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -8,7 +8,10 @@
     },
     "url": "https://github.com/portapps/discord-ptb-portable/releases/download/0.0.48-3/discord-ptb-portable-win32-0.0.48-3.7z#/dl.7z",
     "hash": "247a10832a3c9694edf2f06c23d1160e8cf3c3dc29c01d0f83638da7753ddfc3",
-    "persist": "data",
+    "persist": [
+        "data",
+        "discord-ptb-portable.yml"
+    ],
     "bin": "discord-ptb-portable.exe",
     "shortcuts": [
         [
@@ -16,6 +19,7 @@
             "Discord PTB"
         ]
     ],
+    "pre_install": "Add-Content \"$dir\\caprine-portable.yml\" $null",
     "checkver": {
         "url": "https://github.com/portapps/discord-ptb-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
