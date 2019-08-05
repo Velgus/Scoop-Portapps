@@ -1,5 +1,5 @@
 {
-    "version": "18.09.3-5",
+    "version": "19.03.1-6",
     "description": "Provides a way to use Docker on Windows systems",
     "homepage": "https://docs.docker.com/toolbox/overview/",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/docker-toolbox-portable/releases/download/18.09.3-5/docker-toolbox-portable-win64-18.09.3-5.7z#/dl.7z",
-            "hash": "23e7a5e1a13d600de53628c0c28662a4ec02c2a7b12ae14dcc968aaa93b44c97"
+            "url": "https://github.com/portapps/docker-toolbox-portable/releases/download/19.03.1-6/docker-toolbox-portable-win64-19.03.1-6.7z#/dl.7z",
+            "hash": "b88e362ef96fa73c25ca769122470fad829b1562ea595a4d4499237d57ece1ac"
         }
     },
     "bin": "docker-toolbox-portable.exe",
