@@ -23,7 +23,7 @@
             "SmartGit"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\smartgit-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\smartgit-portable.yml\")) { Add-Content \"$dir\\smartgit-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/smartgit-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

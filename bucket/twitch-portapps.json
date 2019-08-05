@@ -20,7 +20,7 @@
             "Twitch"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\twitch-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\twitch-portable.yml\")) { Add-Content \"$dir\\twitch-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/twitch-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

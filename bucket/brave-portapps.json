@@ -27,7 +27,7 @@
             "Brave"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\brave-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\brave-portable.yml\")) { Add-Content \"$dir\\brave-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/brave-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

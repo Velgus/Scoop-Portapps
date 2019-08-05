@@ -27,7 +27,7 @@
             "Firefox ESR"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\firefox-esr-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\firefox-esr-portable.yml\")) { Add-Content \"$dir\\firefox-esr-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/firefox-esr-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

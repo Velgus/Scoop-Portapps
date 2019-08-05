@@ -35,7 +35,7 @@
             ]
         }
     },
-    "pre_install": "Add-Content \"$dir\\intellij-idea-ultimate-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\intellij-idea-ultimate-portable.yml\")) { Add-Content \"$dir\\intellij-idea-ultimate-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/intellij-idea-ultimate-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

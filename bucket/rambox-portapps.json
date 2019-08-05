@@ -27,7 +27,7 @@
             "qBittorrent"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\rambox-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\rambox-portable.yml\")) { Add-Content \"$dir\\rambox-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/rambox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

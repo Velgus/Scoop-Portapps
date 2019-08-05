@@ -27,7 +27,7 @@
             "Thunderbird"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\thunderbird-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\thunderbird-portable.yml\")) { Add-Content \"$dir\\thunderbird-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/thunderbird-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

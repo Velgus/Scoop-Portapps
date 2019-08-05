@@ -23,7 +23,7 @@
             "Waterfox"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\waterfox-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\waterfox-portable.yml\")) { Add-Content \"$dir\\waterfox-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/waterfox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

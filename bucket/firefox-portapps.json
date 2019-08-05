@@ -27,7 +27,7 @@
             "Firefox"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\firefox-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\firefox-portable.yml\")) { Add-Content \"$dir\\firefox-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/firefox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

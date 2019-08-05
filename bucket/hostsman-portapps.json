@@ -19,7 +19,7 @@
             "HostsMan"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\hostsman-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\hostsman-portable.yml\")) { Add-Content \"$dir\\hostsman-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/hostsman-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

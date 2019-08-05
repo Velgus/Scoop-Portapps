@@ -23,7 +23,7 @@
             "Beaker"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\beaker-browser-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\beaker-browser-portable.yml\")) { Add-Content \"$dir\\beaker-browser-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/beaker-browser-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

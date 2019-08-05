@@ -27,7 +27,7 @@
             "VSCodium"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\vscodium-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\vscodium-portable.yml\")) { Add-Content \"$dir\\vscodium-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/vscodium-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

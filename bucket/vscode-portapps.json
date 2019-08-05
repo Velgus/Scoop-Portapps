@@ -27,7 +27,7 @@
             "Visual Studio Code"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\vscode-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\vscode-portable.yml\")) { Add-Content \"$dir\\vscode-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/vscode-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

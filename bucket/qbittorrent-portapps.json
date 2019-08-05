@@ -27,7 +27,7 @@
             "qBittorrent"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\qbittorrent-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\qbittorrent-portable.yml\")) { Add-Content \"$dir\\qbittorrent-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/qbittorrent-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

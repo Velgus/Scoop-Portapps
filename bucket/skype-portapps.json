@@ -19,7 +19,7 @@
             "Skype"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\skype-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\skype-portable.yml\")) { Add-Content \"$dir\\skype-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/skype-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -19,7 +19,7 @@
             "mRemoteNG"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\mremoteng-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\mremoteng-portable.yml\")) { Add-Content \"$dir\\mremoteng-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/mremoteng-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

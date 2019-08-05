@@ -23,7 +23,7 @@
             "Wire"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\wire-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\wire-portable.yml\")) { Add-Content \"$dir\\wire-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/wire-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

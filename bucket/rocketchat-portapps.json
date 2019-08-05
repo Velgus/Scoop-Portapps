@@ -27,7 +27,7 @@
             "Rocket.Chat"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\rocketchat-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\rocketchat-portable.yml\")) { Add-Content \"$dir\\rocketchat-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/rocketchat-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

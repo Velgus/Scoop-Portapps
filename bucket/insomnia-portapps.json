@@ -23,7 +23,7 @@
             "Insomnia"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\insomnia-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\insomnia-portable.yml\")) { Add-Content \"$dir\\insomnia-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/insomnia-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

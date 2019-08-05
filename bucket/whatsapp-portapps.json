@@ -27,7 +27,7 @@
             "VLC"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\whatsapp-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\whatsapp-portable.yml\")) { Add-Content \"$dir\\whatsapp-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/whatsapp-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

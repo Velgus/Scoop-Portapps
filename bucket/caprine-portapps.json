@@ -23,7 +23,7 @@
             "Caprine"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\caprine-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\caprine-portable.yml\")) { Add-Content \"$dir\\caprine-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/caprine-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

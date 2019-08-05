@@ -27,7 +27,7 @@
             "Postman"
         ]
     ],
-    "pre_install": "Add-Content \"$dir\\postman-portable.yml\" $null",
+    "pre_install": "if(!(Test-Path \"$dir\\postman-portable.yml\")) { Add-Content \"$dir\\postman-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/postman-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
