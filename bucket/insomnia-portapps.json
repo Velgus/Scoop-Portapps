@@ -1,5 +1,5 @@
 {
-    "version": "6.5.4-8",
+    "version": "6.6.2-10",
     "description": "Debug APIs like a human, not a robot",
     "homepage": "https://insomnia.rest",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/insomnia-portable/releases/download/6.5.4-8/insomnia-portable-win64-6.5.4-8.7z#/dl.7z",
-            "hash": "7660246662eedb375fe9234fa6ff1374653853c6570622adecf0b9453efbbc40"
+            "url": "https://github.com/portapps/insomnia-portable/releases/download/6.6.2-10/insomnia-portable-win64-6.6.2-10.7z#/dl.7z",
+            "hash": "a73c7c920e57f09920d357886735441a9bfb2925d9bb3f942ac468305c573ffb"
         }
     },
     "bin": "insomnia-portable.exe",
