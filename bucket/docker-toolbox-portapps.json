@@ -23,7 +23,7 @@
             "Docker Toolbox"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\docker-toolbox-portable.yml\")) { Add-Content \"$dir\\docker-toolbox-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\docker-toolbox-portable.yml\")) { Add-Content \"$dir\\docker-toolbox-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/docker-toolbox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

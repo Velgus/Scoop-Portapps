@@ -23,7 +23,7 @@
             "DBeaver"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\dbeaver-portable.yml\")) { Add-Content \"$dir\\dbeaver-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\dbeaver-portable.yml\")) { Add-Content \"$dir\\dbeaver-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/dbeaver-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

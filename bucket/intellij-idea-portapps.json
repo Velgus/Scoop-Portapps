@@ -35,7 +35,7 @@
             ]
         }
     },
-    "pre_install": "if(!(Test-Path \"$dir\\intellij-idea-community-portable.yml\")) { Add-Content \"$dir\\intellij-idea-community-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\intellij-idea-community-portable.yml\")) { Add-Content \"$dir\\intellij-idea-community-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/intellij-idea-community-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -16,7 +16,7 @@
             "mIRC"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\mirc-portable.yml\")) { Add-Content \"$dir\\mirc-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\mirc-portable.yml\")) { Add-Content \"$dir\\mirc-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/mirc-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

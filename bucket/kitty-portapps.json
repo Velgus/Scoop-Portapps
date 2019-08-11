@@ -19,7 +19,7 @@
             "KiTTY"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\kitty-portable.yml\")) { Add-Content \"$dir\\kitty-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\kitty-portable.yml\")) { Add-Content \"$dir\\kitty-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/kitty-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

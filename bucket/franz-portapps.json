@@ -27,7 +27,7 @@
             "Franz"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\franz-portable.yml\")) { Add-Content \"$dir\\franz-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\franz-portable.yml\")) { Add-Content \"$dir\\franz-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/franz-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

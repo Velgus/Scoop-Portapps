@@ -27,7 +27,7 @@
             "VLC"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\vlc-portable.yml\")) { Add-Content \"$dir\\vlc-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\vlc-portable.yml\")) { Add-Content \"$dir\\vlc-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/vlc-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

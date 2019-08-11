@@ -19,7 +19,7 @@
             "Discord PTB"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\discord-ptb-portable.yml\")) { Add-Content \"$dir\\discord-ptb-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\discord-ptb-portable.yml\")) { Add-Content \"$dir\\discord-ptb-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/discord-ptb-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

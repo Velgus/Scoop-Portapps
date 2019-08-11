@@ -19,7 +19,7 @@
             "Borderless Gaming"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\borderless-gaming-portable.yml\")) { Add-Content \"$dir\\borderless-gaming-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\borderless-gaming-portable.yml\")) { Add-Content \"$dir\\borderless-gaming-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/borderless-gaming-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -20,7 +20,7 @@
             "Android Studio"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\android-studio-portable.yml\")) { Add-Content \"$dir\\android-studio-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\android-studio-portable.yml\")) { Add-Content \"$dir\\android-studio-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/android-studio-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -23,7 +23,7 @@
             "Nextcloud"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\nextcloud-portable.yml\")) { Add-Content \"$dir\\nextcloud-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\nextcloud-portable.yml\")) { Add-Content \"$dir\\nextcloud-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/nextcloud-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

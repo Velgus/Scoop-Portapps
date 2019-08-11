@@ -19,7 +19,7 @@
             "Discord"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\discord-portable.yml\")) { Add-Content \"$dir\\discord-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\discord-portable.yml\")) { Add-Content \"$dir\\discord-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/discord-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

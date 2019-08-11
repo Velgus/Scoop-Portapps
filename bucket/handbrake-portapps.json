@@ -20,7 +20,7 @@
             "Handbrake"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\handbrake-portable.yml\")) { Add-Content \"$dir\\handbrake-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\handbrake-portable.yml\")) { Add-Content \"$dir\\handbrake-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/handbrake-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -27,7 +27,7 @@
             "Riot"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\riot-portable.yml\")) { Add-Content \"$dir\\riot-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\riot-portable.yml\")) { Add-Content \"$dir\\riot-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/riot-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

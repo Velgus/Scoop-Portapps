@@ -16,7 +16,7 @@
             "GnuPG"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\gnupg-portable.yml\")) { Add-Content \"$dir\\gnupg-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\gnupg-portable.yml\")) { Add-Content \"$dir\\gnupg-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/gnupg-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

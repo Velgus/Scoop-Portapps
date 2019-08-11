@@ -27,7 +27,7 @@
             "TeamSpeak 3"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\teamspeak-portable.yml\")) { Add-Content \"$dir\\teamspeak-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\teamspeak-portable.yml\")) { Add-Content \"$dir\\teamspeak-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/teamspeak-client-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

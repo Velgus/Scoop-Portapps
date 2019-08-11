@@ -24,7 +24,7 @@
             "Molotov"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\molotov-portable.yml\")) { Add-Content \"$dir\\molotov-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\molotov-portable.yml\")) { Add-Content \"$dir\\molotov-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/molotov-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

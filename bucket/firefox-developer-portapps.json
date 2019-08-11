@@ -27,7 +27,7 @@
             "Firefox Developer Edition"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$dir\\firefox-developer-portable.yml\")) { Add-Content \"$dir\\firefox-developer-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\firefox-developer-portable.yml\")) { Add-Content \"$dir\\firefox-developer-portable.yml\" $null }",
     "checkver": {
         "url": "https://github.com/portapps/firefox-developer-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([b\\d.-]+)"
