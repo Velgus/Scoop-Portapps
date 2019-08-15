@@ -1,5 +1,5 @@
 {
-    "version": "68.0.1-21",
+    "version": "68.0.2-22",
     "description": "A free and open-source web browser developed by The Mozilla Foundation",
     "homepage": "https://www.mozilla.org/en-US/firefox/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/firefox-portable/releases/download/68.0.1-21/firefox-portable-win64-68.0.1-21.7z#/dl.7z",
-            "hash": "b16449d7133552985dcd656ee5efdd20ceae1a589a06ad28a7288fce396f1e67"
+            "url": "https://github.com/portapps/firefox-portable/releases/download/68.0.2-22/firefox-portable-win64-68.0.2-22.7z#/dl.7z",
+            "hash": "1523a11d287ae2480e69821725cbbd83806c9c2b99c2158049424f2b2c76eb35"
         },
         "32bit": {
-            "url": "https://github.com/portapps/firefox-portable/releases/download/68.0.1-21/firefox-portable-win32-68.0.1-21.7z#/dl.7z",
-            "hash": "972f82faa573c42d9c4eda9b76ede2816551ef5b0a734fe6f088344ceda0578e"
+            "url": "https://github.com/portapps/firefox-portable/releases/download/68.0.2-22/firefox-portable-win32-68.0.2-22.7z#/dl.7z",
+            "hash": "ec15ac047590267fc16e3bed135ec8e460a2d7c3364b3f0b5ddff4956b53ac19"
         }
     },
     "bin": "firefox-portable.exe",
