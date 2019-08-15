@@ -1,13 +1,13 @@
 {
-    "version": "8.50.0.38-66",
+    "version": "8.51.0.72-67",
     "description": "A telecommunications application software product that specializes in providing video chat and voice calls",
     "homepage": "https://www.skype.com/en/get-skype/",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.microsoft.com/en-us/servicesagreement/"
     },
-    "url": "https://github.com/portapps/skype-portable/releases/download/8.50.0.38-66/skype-portable-win32-8.50.0.38-66.7z#/dl.7z",
-    "hash": "ca62760bd4577898e4366d662613b4197afbec7e76eb0ea44cd4eddc1a05a0ea",
+    "url": "https://github.com/portapps/skype-portable/releases/download/8.51.0.72-67/skype-portable-win32-8.51.0.72-67.7z#/dl.7z",
+    "hash": "3ea601aff7db09afa37c29c79b366faa4d8ba3647b879d51c2ef30065046f4fd",
     "persist": [
         "data",
         "skype-portable.yml"
