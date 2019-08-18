@@ -1,5 +1,5 @@
 {
-    "version": "0.3.4157-7",
+    "version": "0.3.4375-8",
     "description": "A cross-platform mobile messaging app which allows you to exchange messages without having to pay for SMS",
     "homepage": "https://www.whatsapp.com",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/whatsapp-portable/releases/download/0.3.4157-7/whatsapp-portable-win64-0.3.4157-7.7z#/dl.7z",
-            "hash": "5e73671be87c08f9f3478fc39048eae533dccd0fd2c31db50f9c0d60cd8c62da"
+            "url": "https://github.com/portapps/whatsapp-portable/releases/download/0.3.4375-8/whatsapp-portable-win64-0.3.4375-8.7z#/dl.7z",
+            "hash": "9ecfd2eac9f0fe58cf7181d754f96a66f5a5b42af28b65643e4590cd4dad075e"
         },
         "32bit": {
-            "url": "https://github.com/portapps/whatsapp-portable/releases/download/0.3.4157-7/whatsapp-portable-win32-0.3.4157-7.7z#/dl.7z",
-            "hash": "126bb0ab5840ecd1f4875ae7be2cdb36d48da0bd11f5e8b7f587899aa4e8c67f"
+            "url": "https://github.com/portapps/whatsapp-portable/releases/download/0.3.4375-8/whatsapp-portable-win32-0.3.4375-8.7z#/dl.7z",
+            "hash": "aef2b9b9267ab5fed4f9979757596ea2a2b676adb9debfaffd7cf487e43a6e9c"
         }
     },
     "bin": "vlc-portable.exe",
