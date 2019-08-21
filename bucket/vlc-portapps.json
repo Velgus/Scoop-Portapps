@@ -1,5 +1,5 @@
 {
-    "version": "3.0.7.1-6",
+    "version": "3.0.8-7",
     "description": "A free and open-source, portable, cross-platform media player and streaming media server",
     "homepage": "https://www.videolan.org/vlc/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/vlc-portable/releases/download/3.0.7.1-6/vlc-portable-win64-3.0.7.1-6.7z#/dl.7z",
-            "hash": "c090481b9fabc2e93a80342a8a75852bc4463c3c5373c8ff982317b6d2f89e07"
+            "url": "https://github.com/portapps/vlc-portable/releases/download/3.0.8-7/vlc-portable-win64-3.0.8-7.7z#/dl.7z",
+            "hash": "0d4503e5e46eeded6535e66cb649fa7db7d9b27a514620f2e95ed5993041647b"
         },
         "32bit": {
-            "url": "https://github.com/portapps/vlc-portable/releases/download/3.0.7.1-6/vlc-portable-win32-3.0.7.1-6.7z#/dl.7z",
-            "hash": "ffe8d07558833d7a44c310bcf62916dbffede17c849423a3312218e02e3a7b58"
+            "url": "https://github.com/portapps/vlc-portable/releases/download/3.0.8-7/vlc-portable-win32-3.0.8-7.7z#/dl.7z",
+            "hash": "90ce0924f0472c3463e62f6306ab43fcf7782dc639551c16de600e13719f5a05"
         }
     },
     "bin": "vlc-portable.exe",
