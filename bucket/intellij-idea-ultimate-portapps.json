@@ -1,5 +1,5 @@
 {
-    "version": "2019.2-14",
+    "version": "2019.2.1-15",
     "description": "Cross-Platform Java IDE for professional developers by JetBrains",
     "homepage": "https://www.jetbrains.com/idea/",
     "license": {
@@ -13,8 +13,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/intellij-idea-ultimate-portable/releases/download/2019.2-14/intellij-idea-ultimate-portable-win64-2019.2-14-setup.exe",
-            "hash": "6cf615f8c25df66c5de4b517e60a27889ffc42b888d90d3bb6b6cac11468f97f",
+            "url": "https://github.com/portapps/intellij-idea-ultimate-portable/releases/download/2019.2.1-15/intellij-idea-ultimate-portable-win64-2019.2.1-15-setup.exe",
+            "hash": "3d44c47f27c5a2293a686911bfb796091cf085b97f280f0d863962499edb4763",
             "bin": "intellij-idea-ultimate-portable-win64.exe",
             "shortcuts": [
                 [
@@ -24,8 +24,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/portapps/intellij-idea-ultimate-portable/releases/download/2019.2-14/intellij-idea-ultimate-portable-win32-2019.2-14-setup.exe",
-            "hash": "780295407c1c04abe4ab84e84dcd18c552a23c061035e5dc094e48bd6fcd0d53",
+            "url": "https://github.com/portapps/intellij-idea-ultimate-portable/releases/download/2019.2.1-15/intellij-idea-ultimate-portable-win32-2019.2.1-15-setup.exe",
+            "hash": "493d6c69014b0f4a673ab7cce6dfe860cd4a32da915a54746239cfc6a3be86fc",
             "bin": "intellij-idea-ultimate-portable-win32.exe",
             "shortcuts": [
                 [
