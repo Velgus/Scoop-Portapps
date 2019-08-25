@@ -1,6 +1,6 @@
 {
     "version": "2.4.7-I607-Win10-5",
-    "description": "A free and open-source software application that implements virtual private network (VPN) techniques",
+    "description": "A free and open-source software application that implements virtual private network (VPN) techniques.",
     "homepage": "https://openvpn.net",
     "license": {
         "identifier": "GPL-2.0-only",
@@ -27,7 +27,7 @@
             "OpenVPN"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\openvpn-portable.yml\")) { Add-Content \"$dir\\openvpn-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\openvpn-portable.yml\")) { New-Item \"$dir\\openvpn-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/openvpn-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([I\\d.-]+Win10-[\\d]+)"

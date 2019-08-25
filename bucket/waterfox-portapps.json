@@ -1,6 +1,6 @@
 {
     "version": "56.2.13-7",
-    "description": "An open-source web browser intended to be speedy, ethical and maintain support for legacy extensions",
+    "description": "An open-source web browser intended to be speedy, ethical and maintain support for legacy extensions.",
     "homepage": "https://www.waterfox.net",
     "license": {
         "identifier": "MPL-2.0",
@@ -23,7 +23,7 @@
             "Waterfox"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\waterfox-portable.yml\")) { Add-Content \"$dir\\waterfox-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\waterfox-portable.yml\")) { New-Item \"$dir\\waterfox-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/waterfox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

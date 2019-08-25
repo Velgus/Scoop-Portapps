@@ -1,6 +1,6 @@
 {
     "version": "2019.2.1-29",
-    "description": "Cross-Platform Java IDE for professional developers by JetBrains",
+    "description": "Cross-Platform Java IDE for professional developers by JetBrains.",
     "homepage": "https://www.jetbrains.com/idea/",
     "license": {
         "identifier": "Apache-2.0",
@@ -35,7 +35,7 @@
             ]
         }
     },
-    "pre_install": "if(!(Test-Path \"$persist_dir\\intellij-idea-community-portable.yml\")) { Add-Content \"$dir\\intellij-idea-community-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\intellij-idea-community-portable.yml\")) { New-Item \"$dir\\intellij-idea-community-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/intellij-idea-community-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

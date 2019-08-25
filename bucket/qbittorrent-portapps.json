@@ -1,6 +1,6 @@
 {
     "version": "4.1.7-5",
-    "description": "A free and open-source software alternative to µTorrent",
+    "description": "A free and open-source software alternative to µTorrent.",
     "homepage": "https://www.qbittorrent.org",
     "license": {
         "identifier": "GPL-2.0-only",
@@ -27,7 +27,7 @@
             "qBittorrent"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\qbittorrent-portable.yml\")) { Add-Content \"$dir\\qbittorrent-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\qbittorrent-portable.yml\")) { New-Item \"$dir\\qbittorrent-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/qbittorrent-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

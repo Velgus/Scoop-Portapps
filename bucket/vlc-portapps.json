@@ -1,6 +1,6 @@
 {
     "version": "3.0.8-7",
-    "description": "A free and open-source, portable, cross-platform media player and streaming media server",
+    "description": "A free and open-source, portable, cross-platform media player and streaming media server.",
     "homepage": "https://www.videolan.org/vlc/",
     "license": {
         "identifier": "GPL-2.0-only",
@@ -27,7 +27,7 @@
             "VLC"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\vlc-portable.yml\")) { Add-Content \"$dir\\vlc-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\vlc-portable.yml\")) { New-Item \"$dir\\vlc-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/vlc-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

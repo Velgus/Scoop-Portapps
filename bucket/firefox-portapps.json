@@ -1,6 +1,6 @@
 {
     "version": "68.0.2-22",
-    "description": "A free and open-source web browser developed by The Mozilla Foundation",
+    "description": "A free and open-source web browser developed by The Mozilla Foundation.",
     "homepage": "https://www.mozilla.org/en-US/firefox/",
     "license": {
         "identifier": "MPL-2.0",
@@ -27,7 +27,7 @@
             "Firefox"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\firefox-portable.yml\")) { Add-Content \"$dir\\firefox-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\firefox-portable.yml\")) { New-Item \"$dir\\firefox-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/firefox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

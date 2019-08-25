@@ -1,6 +1,6 @@
 {
     "version": "5.2.0-4",
-    "description": "Messaging app for WhatsApp, Slack, Telegram, HipChat, Hangouts and many many more",
+    "description": "Messaging app for WhatsApp, Slack, Telegram, HipChat, Hangouts and many many more.",
     "homepage": "https://meetfranz.com",
     "license": {
         "identifier": "Apache-2.0",
@@ -27,7 +27,7 @@
             "Franz"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\franz-portable.yml\")) { Add-Content \"$dir\\franz-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\franz-portable.yml\")) { New-Item \"$dir\\franz-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/franz-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

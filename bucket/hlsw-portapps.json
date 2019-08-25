@@ -1,6 +1,6 @@
 {
     "version": "1.4.0.3-1",
-    "description": "A game server browser and administration tool",
+    "description": "A game server browser and administration tool.",
     "homepage": "http://hlsw.org/",
     "license": "Freeware",
     "url": "https://github.com/portapps/hlsw-portable/releases/download/1.4.0.3-1/hlsw-portable-win32-1.4.0.3-1.7z#/dl.7z",
@@ -16,7 +16,7 @@
             "HLSW"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\hlsw-portable.yml\")) { Add-Content \"$dir\\hlsw-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\hlsw-portable.yml\")) { New-Item \"$dir\\hlsw-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/hlsw-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

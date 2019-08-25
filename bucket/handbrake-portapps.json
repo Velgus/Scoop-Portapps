@@ -1,6 +1,6 @@
 {
     "version": "1.2.2-3",
-    "description": "A tool for converting video from nearly any format to a selection of modern, widely supported codecs",
+    "description": "A tool for converting video from nearly any format to a selection of modern, widely supported codecs.",
     "homepage": "https://handbrake.fr/",
     "license": "https://github.com/HandBrake/HandBrake/blob/master/LICENSE",
     "persist": [
@@ -20,7 +20,7 @@
             "Handbrake"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\handbrake-portable.yml\")) { Add-Content \"$dir\\handbrake-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\handbrake-portable.yml\")) { New-Item \"$dir\\handbrake-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/handbrake-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

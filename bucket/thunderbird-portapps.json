@@ -1,6 +1,6 @@
 {
     "version": "60.8.0-7",
-    "description": "A free and open-source email client, news client and RSS client developed by the Mozilla Foundation",
+    "description": "A free and open-source email client, news client and RSS client developed by the Mozilla Foundation.",
     "homepage": "https://www.thunderbird.net/en-US/",
     "license": {
         "identifier": "MPL-2.0",
@@ -27,7 +27,7 @@
             "Thunderbird"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\thunderbird-portable.yml\")) { Add-Content \"$dir\\thunderbird-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\thunderbird-portable.yml\")) { New-Item \"$dir\\thunderbird-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/thunderbird-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

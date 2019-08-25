@@ -1,6 +1,6 @@
 {
     "version": "3.10.3138-4",
-    "description": "An encrypted communications program",
+    "description": "An encrypted communications program.",
     "homepage": "https://wire.com/en/",
     "license": {
         "identifier": "GPL-3.0-only",
@@ -23,7 +23,7 @@
             "Wire"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\wire-portable.yml\")) { Add-Content \"$dir\\wire-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\wire-portable.yml\")) { New-Item \"$dir\\wire-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/wire-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

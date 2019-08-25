@@ -1,6 +1,6 @@
 {
     "version": "1.76.20-9",
-    "description": "An open source, tabbed, multi-protocol, remote connections manager",
+    "description": "An open source, tabbed, multi-protocol, remote connections manager.",
     "homepage": "https://mremoteng.org/",
     "license": {
         "identifier": "GPL-2.0-only",
@@ -19,7 +19,7 @@
             "mRemoteNG"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\mremoteng-portable.yml\")) { Add-Content \"$dir\\mremoteng-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\mremoteng-portable.yml\")) { New-Item \"$dir\\mremoteng-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/mremoteng-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

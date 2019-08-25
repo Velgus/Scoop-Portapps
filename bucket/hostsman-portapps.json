@@ -1,6 +1,6 @@
 {
     "version": "4.8.106-10",
-    "description": "A freeware application that lets you manage your Hosts file with ease",
+    "description": "A freeware application that lets you manage your Hosts file with ease.",
     "homepage": "http://www.abelhadigital.com/hostsman/",
     "license": {
         "identifier": "Freeware",
@@ -19,7 +19,7 @@
             "HostsMan"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\hostsman-portable.yml\")) { Add-Content \"$dir\\hostsman-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\hostsman-portable.yml\")) { New-Item \"$dir\\hostsman-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/hostsman-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

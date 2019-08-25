@@ -1,6 +1,6 @@
 {
     "version": "19.03.1-6",
-    "description": "Provides a way to use Docker on Windows systems",
+    "description": "Provides a way to use Docker on Windows systems.",
     "homepage": "https://docs.docker.com/toolbox/overview/",
     "license": {
         "identifier": "Apache-2.0",
@@ -23,7 +23,7 @@
             "Docker Toolbox"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\docker-toolbox-portable.yml\")) { Add-Content \"$dir\\docker-toolbox-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\docker-toolbox-portable.yml\")) { New-Item \"$dir\\docker-toolbox-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/docker-toolbox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

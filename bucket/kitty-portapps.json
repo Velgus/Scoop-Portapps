@@ -1,6 +1,6 @@
 {
     "version": "0.71.0.7-9",
-    "description": "A fork of PuTTY, the best telnet / SSH client in the world",
+    "description": "A fork of PuTTY, the best telnet / SSH client in the world.",
     "homepage": "http://www.9bis.net/kitty/#!index.md",
     "license": {
         "identifier": "MIT",
@@ -19,7 +19,7 @@
             "KiTTY"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\kitty-portable.yml\")) { Add-Content \"$dir\\kitty-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\kitty-portable.yml\")) { New-Item \"$dir\\kitty-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/kitty-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

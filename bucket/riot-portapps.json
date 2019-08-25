@@ -1,6 +1,6 @@
 {
     "version": "1.3.2-18",
-    "description": "An open source, free software instant messaging client based on the Matrix protocol",
+    "description": "An open source, free software instant messaging client based on the Matrix protocol.",
     "homepage": "https://about.riot.im/",
     "license": {
         "identifier": "Apache-2.0",
@@ -27,7 +27,7 @@
             "Riot"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\riot-portable.yml\")) { Add-Content \"$dir\\riot-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\riot-portable.yml\")) { New-Item \"$dir\\riot-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/riot-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

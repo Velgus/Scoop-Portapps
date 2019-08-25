@@ -1,6 +1,6 @@
 {
     "version": "0.68.131-29",
-    "description": "A free and open-source web browser based on the Chromium web browser and its Blink engine",
+    "description": "A free and open-source web browser based on the Chromium web browser and its Blink engine.",
     "homepage": "https://brave.com/",
     "license": {
         "identifier": "MPL-2.0",
@@ -27,7 +27,7 @@
             "Brave"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\brave-portable.yml\")) { Add-Content \"$dir\\brave-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\brave-portable.yml\")) { New-Item \"$dir\\brave-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/brave-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

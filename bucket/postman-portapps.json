@@ -1,6 +1,6 @@
 {
     "version": "7.5.0-17",
-    "description": "A complete toolchain for API developers",
+    "description": "A complete toolchain for API developers.",
     "homepage": "https://www.getpostman.com/",
     "license": {
         "identifier": "Freeware",
@@ -27,7 +27,7 @@
             "Postman"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\postman-portable.yml\")) { Add-Content \"$dir\\postman-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\postman-portable.yml\")) { New-Item \"$dir\\postman-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/postman-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

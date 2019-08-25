@@ -1,6 +1,6 @@
 {
     "version": "2.37.0-16",
-    "description": "An elegant Facebook Messenger desktop app",
+    "description": "An elegant Facebook Messenger desktop app.",
     "homepage": "https://sindresorhus.com/caprine/",
     "license": {
         "identifier": "MIT",
@@ -23,7 +23,7 @@
             "Caprine"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\caprine-portable.yml\")) { Add-Content \"$dir\\caprine-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\caprine-portable.yml\")) { New-Item \"$dir\\caprine-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/caprine-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

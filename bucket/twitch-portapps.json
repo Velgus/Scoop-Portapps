@@ -1,6 +1,6 @@
 {
     "version": "7.5.6774.199-13",
-    "description": "A live streaming video platform",
+    "description": "A live streaming video platform.",
     "homepage": "https://www.twitch.tv/downloads",
     "license": "Unknown",
     "persist": [
@@ -20,7 +20,7 @@
             "Twitch"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\twitch-portable.yml\")) { Add-Content \"$dir\\twitch-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\twitch-portable.yml\")) { New-Item \"$dir\\twitch-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/twitch-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

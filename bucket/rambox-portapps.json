@@ -1,6 +1,6 @@
 {
     "version": "0.6.9-3",
-    "description": "A workspace browser that allows you to manage as many applications as you want, all in one place",
+    "description": "A workspace browser that allows you to manage as many applications as you want, all in one place.",
     "homepage": "https://rambox.pro/#ce",
     "license": {
         "identifier": "GPL-3.0-only",
@@ -27,7 +27,7 @@
             "qBittorrent"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\rambox-portable.yml\")) { Add-Content \"$dir\\rambox-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\rambox-portable.yml\")) { New-Item \"$dir\\rambox-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/rambox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

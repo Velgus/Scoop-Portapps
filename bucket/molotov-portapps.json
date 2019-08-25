@@ -1,6 +1,6 @@
 {
     "version": "4.1.0-8",
-    "description": "An app to watch French TV free of charge",
+    "description": "An app to watch French TV free of charge.",
     "homepage": "https://www.molotov.tv",
     "license": "Freeware",
     "persist": [
@@ -24,7 +24,7 @@
             "Molotov"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\molotov-portable.yml\")) { Add-Content \"$dir\\molotov-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\molotov-portable.yml\")) { New-Item \"$dir\\molotov-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/molotov-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

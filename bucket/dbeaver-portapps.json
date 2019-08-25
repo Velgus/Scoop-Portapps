@@ -1,6 +1,6 @@
 {
     "version": "6.1.5-15",
-    "description": "A free universal database tool and SQL client",
+    "description": "A free universal database tool and SQL client.",
     "homepage": "https://dbeaver.io",
     "license": {
         "identifier": "Apache-2.0",
@@ -23,7 +23,7 @@
             "DBeaver"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\dbeaver-portable.yml\")) { Add-Content \"$dir\\dbeaver-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\dbeaver-portable.yml\")) { New-Item \"$dir\\dbeaver-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/dbeaver-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

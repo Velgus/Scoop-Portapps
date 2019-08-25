@@ -1,6 +1,6 @@
 {
     "version": "1.37.1-16",
-    "description": "A source code editor developed by Microsoft for Windows, Linux and macOS",
+    "description": "A source code editor developed by Microsoft for Windows, Linux and macOS.",
     "homepage": "https://code.visualstudio.com",
     "license": {
         "identifier": "MIT",
@@ -27,7 +27,7 @@
             "Visual Studio Code"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\vscode-portable.yml\")) { Add-Content \"$dir\\vscode-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\vscode-portable.yml\")) { New-Item \"$dir\\vscode-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/vscode-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

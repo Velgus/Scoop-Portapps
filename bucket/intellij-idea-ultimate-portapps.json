@@ -1,6 +1,6 @@
 {
     "version": "2019.2.1-15",
-    "description": "Cross-Platform Java IDE for professional developers by JetBrains",
+    "description": "Cross-Platform Java IDE for professional developers by JetBrains.",
     "homepage": "https://www.jetbrains.com/idea/",
     "license": {
         "identifier": "Proprietary",
@@ -35,7 +35,7 @@
             ]
         }
     },
-    "pre_install": "if(!(Test-Path \"$persist_dir\\intellij-idea-ultimate-portable.yml\")) { Add-Content \"$dir\\intellij-idea-ultimate-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\intellij-idea-ultimate-portable.yml\")) { New-Item \"$dir\\intellij-idea-ultimate-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/intellij-idea-ultimate-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

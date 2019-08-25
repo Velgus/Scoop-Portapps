@@ -1,6 +1,6 @@
 {
     "version": "9.5.5-2",
-    "description": "Play your favorite games in a borderless window",
+    "description": "Play your favorite games in a borderless window.",
     "homepage": "https://github.com/Codeusa/Borderless-Gaming",
     "license": {
         "identifier": "GPL-2.0-only",
@@ -19,7 +19,7 @@
             "Borderless Gaming"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\borderless-gaming-portable.yml\")) { Add-Content \"$dir\\borderless-gaming-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\borderless-gaming-portable.yml\")) { New-Item \"$dir\\borderless-gaming-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/borderless-gaming-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

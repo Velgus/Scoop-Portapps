@@ -1,6 +1,6 @@
 {
     "version": "7.57-6",
-    "description": "An Internet Relay Chat (IRC) client for Windows",
+    "description": "An Internet Relay Chat (IRC) client for Windows.",
     "homepage": "https://www.mirc.com/",
     "license": "Shareware",
     "url": "https://github.com/portapps/mirc-portable/releases/download/7.57-6/mirc-portable-win32-7.57-6.7z#/dl.7z",
@@ -16,7 +16,7 @@
             "mIRC"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\mirc-portable.yml\")) { Add-Content \"$dir\\mirc-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\mirc-portable.yml\")) { New-Item \"$dir\\mirc-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/mirc-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -1,6 +1,6 @@
 {
     "version": "0.3.4375-8",
-    "description": "A cross-platform mobile messaging app which allows you to exchange messages without having to pay for SMS",
+    "description": "A cross-platform mobile messaging app which allows you to exchange messages without having to pay for SMS.",
     "homepage": "https://www.whatsapp.com",
     "license": {
         "identifier": "Freeware",
@@ -27,7 +27,7 @@
             "VLC"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\whatsapp-portable.yml\")) { Add-Content \"$dir\\whatsapp-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\whatsapp-portable.yml\")) { New-Item \"$dir\\whatsapp-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/whatsapp-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"

@@ -1,6 +1,6 @@
 {
     "version": "0.8.8-2",
-    "description": "An experimental browser for exploring and building the peer-to-peer Web",
+    "description": "An experimental browser for exploring and building the peer-to-peer Web.",
     "homepage": "https://beakerbrowser.com/",
     "license": {
         "identifier": "MIT",
@@ -23,7 +23,7 @@
             "Beaker"
         ]
     ],
-    "pre_install": "if(!(Test-Path \"$persist_dir\\beaker-browser-portable.yml\")) { Add-Content \"$dir\\beaker-browser-portable.yml\" $null }",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\beaker-browser-portable.yml\")) { New-Item \"$dir\\beaker-browser-portable.yml\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/portapps/beaker-browser-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
