@@ -1,5 +1,5 @@
 {
-    "version": "3.3.0-13",
+    "version": "3.3.2-14",
     "description": "A VoIP app for audio communication between users on a chat channel.",
     "homepage": "https://www.teamspeak.com/en/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/teamspeak-client-portable/releases/download/3.3.0-13/teamspeak-client-portable-win64-3.3.0-13.7z#/dl.7z",
-            "hash": "2609b8a594616ba9d81a6e5aebc9b0f034fbb14e22f481580a6f55fed599c0d7"
+            "url": "https://github.com/portapps/teamspeak-client-portable/releases/download/3.3.2-14/teamspeak-client-portable-win64-3.3.2-14.7z#/dl.7z",
+            "hash": "c44c5dafca1313e07900633198f26f1c769a9d1fcbbec761ba61a08e77abbf57"
         },
         "32bit": {
-            "url": "https://github.com/portapps/teamspeak-client-portable/releases/download/3.3.0-13/teamspeak-client-portable-win32-3.3.0-13.7z#/dl.7z",
-            "hash": "69316c6679c8056d0b42a86f386d0dc3efffe22c0509b5137d0364a25e21901b"
+            "url": "https://github.com/portapps/teamspeak-client-portable/releases/download/3.3.2-14/teamspeak-client-portable-win32-3.3.2-14.7z#/dl.7z",
+            "hash": "15330df03d8c88b481aa316c67969bd6f064d67bf93d14a2577889fd5b5cdf70"
         }
     },
     "bin": "teamspeak-client-portable.exe",
