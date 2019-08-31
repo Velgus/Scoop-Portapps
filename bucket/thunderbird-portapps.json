@@ -1,5 +1,5 @@
 {
-    "version": "60.8.0-7",
+    "version": "68.0-8",
     "description": "A free and open-source email client, news client and RSS client developed by the Mozilla Foundation.",
     "homepage": "https://www.thunderbird.net/en-US/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/thunderbird-portable/releases/download/60.8.0-7/thunderbird-portable-win64-60.8.0-7.7z#/dl.7z",
-            "hash": "8c9733820773721821e2996615ec2b82d9b5fce1378f38800892896ea51dd10f"
+            "url": "https://github.com/portapps/thunderbird-portable/releases/download/68.0-8/thunderbird-portable-win64-68.0-8.7z#/dl.7z",
+            "hash": "48d6b18dccc8bf2da029a527e6985aea01319d9b31a84ba4ab0aafb63386595b"
         },
         "32bit": {
-            "url": "https://github.com/portapps/thunderbird-portable/releases/download/60.8.0-7/thunderbird-portable-win32-60.8.0-7.7z#/dl.7z",
-            "hash": "9f68aecc74ef7904d73de4fba892f7d092b683c1b7e1f8c9c913fb46045a2708"
+            "url": "https://github.com/portapps/thunderbird-portable/releases/download/68.0-8/thunderbird-portable-win32-68.0-8.7z#/dl.7z",
+            "hash": "a52d358accbc9782efeac01bd1338adb30920603f0fb05605a258478a0a7cecc"
         }
     },
     "bin": "thunderbird-portable.exe",
