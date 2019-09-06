@@ -1,5 +1,5 @@
 {
-    "version": "56.2.13-7",
+    "version": "56.2.14-8",
     "description": "An open-source web browser intended to be speedy, ethical and maintain support for legacy extensions.",
     "homepage": "https://www.waterfox.net",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/waterfox-portable/releases/download/56.2.13-7/waterfox-portable-win64-56.2.13-7.7z#/dl.7z",
-            "hash": "476901b01bf6514f7629e188209c639ab66b75e23733c5b0144b788e91765cd0"
+            "url": "https://github.com/portapps/waterfox-portable/releases/download/56.2.14-8/waterfox-portable-win64-56.2.14-8.7z#/dl.7z",
+            "hash": "7687431723d18875f19bb4f1bc3f2d6240d56b8dcab4d789a97a79d4011394ce"
         }
     },
     "bin": "waterfox-portable.exe",
