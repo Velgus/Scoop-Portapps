@@ -1,5 +1,5 @@
 {
-    "version": "68.1.0-20",
+    "version": "68.1.0-25",
     "description": "Extended Support Release of Firefox web browser developed by The Mozilla Foundation.",
     "homepage": "https://www.mozilla.org/en-US/firefox/organizations/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/firefox-esr-portable/releases/download/68.1.0-20/firefox-esr-portable-win32-68.1.0-20.7z#/dl.7z",
-            "hash": "f30e2556124938fc30440ce67e86d18f0b424f049c34c35941589bd0e779e612"
+            "url": "https://github.com/portapps/firefox-esr-portable/releases/download/68.1.0-25/firefox-esr-portable-win32-68.1.0-25.7z#/dl.7z",
+            "hash": "f0da0f6684d60c34ca775701e74269f7c191c8b85fb8b9f4883fc093736b6809"
         },
         "32bit": {
-            "url": "https://github.com/portapps/firefox-esr-portable/releases/download/68.1.0-20/firefox-esr-portable-win64-68.1.0-20.7z#/dl.7z",
-            "hash": "e73a4429d248d64bbf81f6bb42a1370c526bf52c2dde5ee5cf141e3cd9534cfa"
+            "url": "https://github.com/portapps/firefox-esr-portable/releases/download/68.1.0-25/firefox-esr-portable-win64-68.1.0-25.7z#/dl.7z",
+            "hash": "e5df725132040ed259d52f83fb64ef9947e789c6f65583e7de949dacfa932d1d"
         }
     },
     "bin": "firefox-esr-portable.exe",
