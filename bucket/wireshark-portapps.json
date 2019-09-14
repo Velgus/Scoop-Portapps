@@ -1,5 +1,5 @@
 {
-    "version": "3.0.3-2",
+    "version": "3.0.4-3",
     "description": "One of the world's foremost network protocol analyzers.",
     "homepage": "https://www.wireshark.org",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/wireshark-portable/releases/download/3.0.3-2/wireshark-portable-win64-3.0.3-2.7z#/dl.7z",
-            "hash": "835de6cfa30fe3cca6b18007cee2f21c8bc0be748fa4e91470df0aaf95fbcd34"
+            "url": "https://github.com/portapps/wireshark-portable/releases/download/3.0.4-3/wireshark-portable-win64-3.0.4-3.7z#/dl.7z",
+            "hash": "ef438c51e5af11829b6872b1f1285143db1964815f8211ba6c0ca5b8f8cf5b5c"
         },
         "32bit": {
-            "url": "https://github.com/portapps/wireshark-portable/releases/download/3.0.3-2/wireshark-portable-win32-3.0.3-2.7z#/dl.7z",
-            "hash": "a868459cf3f3e308c1106229ab8bcd79ddc596284a292c639c30e9a6e12ad6f0"
+            "url": "https://github.com/portapps/wireshark-portable/releases/download/3.0.4-3/wireshark-portable-win32-3.0.4-3.7z#/dl.7z",
+            "hash": "0b9bf6ed501fa5788327d8f86db44110f97cdcc62809136a7f8db53b8f820a98"
         }
     },
     "bin": "wireshark-portable.exe",
@@ -46,7 +46,8 @@
         }
     },
     "notes": [
-        "Installed from Portapps (https://portapps.io/app/wireshark-portable/)", "",
+        "Installed from Portapps (https://portapps.io/app/wireshark-portable/)",
+        "",
         "Before using Wireshark portably, you must install the follwing to \"$dir\\app\\deps\\\"",
         "* Microsoft Visual C++ Redistributable Package through vcredist_x86.exe or vcredist_x64.exe setup depending on your platform (required)",
         "* Npcap which is required for packet capture (recommended)",
