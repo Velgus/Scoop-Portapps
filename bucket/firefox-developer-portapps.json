@@ -1,5 +1,5 @@
 {
-    "version": "70.0b2-19",
+    "version": "70.0b6-20",
     "description": "Developer Edition of Firefox web browser developed by The Mozilla Foundation.",
     "homepage": "https://www.mozilla.org/en-US/firefox/developer/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/firefox-developer-portable/releases/download/70.0b2-19/firefox-developer-portable-win32-70.0b2-19.7z#/dl.7z",
-            "hash": "e5db1f7c1597a9a65268f56766a3383f79134d683ea4493c9f3c8b6a71c2c12d"
+            "url": "https://github.com/portapps/firefox-developer-portable/releases/download/70.0b6-20/firefox-developer-portable-win32-70.0b6-20.7z#/dl.7z",
+            "hash": "13a479baf7192a4cf05d14a90fae38723f51c29dc531b97bb635b1c0eaa09954"
         },
         "32bit": {
-            "url": "https://github.com/portapps/firefox-developer-portable/releases/download/70.0b2-19/firefox-developer-portable-win64-70.0b2-19.7z#/dl.7z",
-            "hash": "4629e197f36ef0b21dd39a6f6e93a1b9492628c5661c7e773f21dccbfff04dcd"
+            "url": "https://github.com/portapps/firefox-developer-portable/releases/download/70.0b6-20/firefox-developer-portable-win64-70.0b6-20.7z#/dl.7z",
+            "hash": "f29307cc31b8ad2e2fa6000118b7ca909a5a301b7ad1cbbe85c61222d0aa21d6"
         }
     },
     "bin": "firefox-developer-portable.exe",
