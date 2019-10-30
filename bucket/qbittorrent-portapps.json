@@ -1,5 +1,5 @@
 {
-    "version": "4.1.8-6",
+    "version": "4.1.9-7",
     "description": "A free and open-source software alternative to µTorrent.",
     "homepage": "https://www.qbittorrent.org",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/qbittorrent-portable/releases/download/4.1.8-6/qbittorrent-portable-win64-4.1.8-6.7z#/dl.7z",
-            "hash": "cc03861e74fcaf55d97ff2fa52fb497b0da555e5808d33b451478b0678e9df10"
+            "url": "https://github.com/portapps/qbittorrent-portable/releases/download/4.1.9-7/qbittorrent-portable-win64-4.1.9-7.7z#/dl.7z",
+            "hash": "c39c88f5ded9116d6e0faacf84aeef9762350c0267b09c352fd0f545279dfbfb"
         },
         "32bit": {
-            "url": "https://github.com/portapps/qbittorrent-portable/releases/download/4.1.8-6/qbittorrent-portable-win32-4.1.8-6.7z#/dl.7z",
-            "hash": "3583f293fa61b847c2fbe2b69d52acbf1e591b02ea9be9e21651d89d82305b50"
+            "url": "https://github.com/portapps/qbittorrent-portable/releases/download/4.1.9-7/qbittorrent-portable-win32-4.1.9-7.7z#/dl.7z",
+            "hash": "052246b7945ad61fdce86b1ef78e442b46cbe6beb02665031bd65189ad0a783e"
         }
     },
     "bin": "qbittorrent-portable.exe",
