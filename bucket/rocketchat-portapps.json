@@ -1,5 +1,5 @@
 {
-    "version": "2.16.0-8",
+    "version": "2.16.1-9",
     "description": "Free, Open Source, Enterprise Team Chat.",
     "homepage": "https://rocket.chat",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/rocketchat-portable/releases/download/2.16.0-8/rocketchat-portable-win64-2.16.0-8.7z#/dl.7z",
-            "hash": "5a68b84a514b9d253e65ff6b5ea0dd1d6cd3e84c9ed2b4e6bb8f91eff3d27b52"
+            "url": "https://github.com/portapps/rocketchat-portable/releases/download/2.16.1-9/rocketchat-portable-win64-2.16.1-9.7z#/dl.7z",
+            "hash": "266c87350662f6c814e016a7bf07251c4e53335d5a6d75b4915b43a51285250c"
         },
         "32bit": {
-            "url": "https://github.com/portapps/rocketchat-portable/releases/download/2.16.0-8/rocketchat-portable-win32-2.16.0-8.7z#/dl.7z",
-            "hash": "a8eae96c88656ce385adeb2c2857b659b8c53678914922902ef08432062eab3a"
+            "url": "https://github.com/portapps/rocketchat-portable/releases/download/2.16.1-9/rocketchat-portable-win32-2.16.1-9.7z#/dl.7z",
+            "hash": "e3a5e279f1c4b80dda1d50fc3625b4dc80dfaef9b9203739f6e7c0a2c0c395f1"
         }
     },
     "bin": "rocketchat-portable.exe",
