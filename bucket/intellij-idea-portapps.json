@@ -1,5 +1,5 @@
 {
-    "version": "2019.2.3-31",
+    "version": "2019.2.4-32",
     "description": "Cross-Platform Java IDE for professional developers by JetBrains.",
     "homepage": "https://www.jetbrains.com/idea/",
     "license": {
@@ -13,8 +13,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/intellij-idea-community-portable/releases/download/2019.2.3-31/intellij-idea-community-portable-win64-2019.2.3-31-setup.exe",
-            "hash": "c6826c19bf7063367cdb8f70083d8865011183d094c4b86bf725ff0e6606ee40",
+            "url": "https://github.com/portapps/intellij-idea-community-portable/releases/download/2019.2.4-32/intellij-idea-community-portable-win64-2019.2.4-32-setup.exe",
+            "hash": "4e2ba6f138d9f1c634aa55d832c064d153085f3c7057a12c45d78e3a3a90850a",
             "bin": "intellij-idea-community-portable-win64.exe",
             "shortcuts": [
                 [
@@ -24,8 +24,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/portapps/intellij-idea-community-portable/releases/download/2019.2.3-31/intellij-idea-community-portable-win32-2019.2.3-31-setup.exe",
-            "hash": "c069b7a78d89143b3dfd3a2e647e8736f9d70d36d8066c54f4acc71d7e3587cb",
+            "url": "https://github.com/portapps/intellij-idea-community-portable/releases/download/2019.2.4-32/intellij-idea-community-portable-win32-2019.2.4-32-setup.exe",
+            "hash": "5a19c0ad1dceb4d2b8aa74f778ade875e20d4ffd8af7fc568b3a2330f90eb28d",
             "bin": "intellij-idea-community-portable-win32.exe",
             "shortcuts": [
                 [
