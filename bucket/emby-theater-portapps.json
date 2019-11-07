@@ -1,5 +1,5 @@
 {
-    "version": "3.0.9-4",
+    "version": "3.0.10-5",
     "description": "A native Windows app for Emby, the media server designed to organize, play, and stream audio and video.",
     "homepage": "https://emby.media/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/emby-theater-portable/releases/download/3.0.9-4/emby-theater-portable-win64-3.0.9-4.7z#/dl.7z",
-            "hash": "a582380ddb571861ede3424c19986634f0201c23f75db19a3f555a99d991fa71"
+            "url": "https://github.com/portapps/emby-theater-portable/releases/download/3.0.10-5/emby-theater-portable-win64-3.0.10-5.7z#/dl.7z",
+            "hash": "e24606bfea6af16f92da89d0a2634feef7f94453fe6169656a7c0cd5730ff4cd"
         },
         "32bit": {
-            "url": "https://github.com/portapps/emby-theater-portable/releases/download/3.0.9-4/emby-theater-portable-win32-3.0.9-4.7z#/dl.7z",
-            "hash": "7205450fe80d402d1e057d22395dacae5d6d1a021fe8642626f0c16e6246ec5d"
+            "url": "https://github.com/portapps/emby-theater-portable/releases/download/3.0.10-5/emby-theater-portable-win32-3.0.10-5.7z#/dl.7z",
+            "hash": "ff193697dc3b3829d1218b3a9d93aac18fd9c9639486d11d6fa8e43bd4a44520"
         }
     },
     "bin": "emby-theater-portable.exe",
