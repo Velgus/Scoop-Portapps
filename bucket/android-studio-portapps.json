@@ -1,13 +1,13 @@
 {
-    "version": "3.5.1-6",
+    "version": "3.5.2-7",
     "description": "The official IDE for Google's Android operating system.",
     "homepage": "https://developer.android.com/studio/",
     "license": {
         "identifier": "Freeware",
         "url": "https://developer.android.com/studio/terms.html"
     },
-    "url": "https://github.com/portapps/android-studio-portable/releases/download/3.5.1-6/android-studio-portable-win64-3.5.1-6-setup.exe",
-    "hash": "b735b8dc7f9ede443599a192f933c233ecf9f19de310c6088587c11d4f051a4a",
+    "url": "https://github.com/portapps/android-studio-portable/releases/download/3.5.2-7/android-studio-portable-win64-3.5.2-7-setup.exe",
+    "hash": "9b7e2b4bb2979a66900ec330b159a83da036183cbcdd43f77656313f41776321",
     "innosetup": true,
     "persist": [
         "data",
