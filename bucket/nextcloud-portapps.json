@@ -1,5 +1,5 @@
 {
-    "version": "2.6.0-3",
+    "version": "2.6.1-4",
     "description": "An open source, self-hosted file share and communication platform.",
     "homepage": "https://nextcloud.com/",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/nextcloud-portable/releases/download/2.6.0-3/nextcloud-portable-win64-2.6.0-3.7z#/dl.7z",
-            "hash": "11dc9803262bd430e34bad2b1193742c4859f630fdf90e01e101b3a26f81e7fa"
+            "url": "https://github.com/portapps/nextcloud-portable/releases/download/2.6.1-4/nextcloud-portable-win64-2.6.1-4.7z#/dl.7z",
+            "hash": "84294825460c4817e46877c29ee41837d850ea7a8d147f4cdefc5ab61e66f2ca"
         }
     },
     "bin": "nextcloud-portable.exe",
