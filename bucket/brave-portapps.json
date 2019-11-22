@@ -1,5 +1,5 @@
 {
-    "version": "0.70.122-38",
+    "version": "1.0.1-41",
     "description": "A free and open-source web browser based on the Chromium web browser and its Blink engine.",
     "homepage": "https://brave.com/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/brave-portable/releases/download/0.70.122-38/brave-portable-win64-0.70.122-38.7z#/dl.7z",
-            "hash": "9bcca81576c2fa4a3f255811aed5c6ca711c1250cab45be891b300f56cdbd8d9"
+            "url": "https://github.com/portapps/brave-portable/releases/download/1.0.1-41/brave-portable-win64-1.0.1-41.7z#/dl.7z",
+            "hash": "f63202938e32b7c4912d923b617c1ad5e0781b3be1588de62153d80be4763e42"
         },
         "32bit": {
-            "url": "https://github.com/portapps/brave-portable/releases/download/0.70.122-38/brave-portable-win32-0.70.122-38.7z#/dl.7z",
-            "hash": "0089293cde12160506e9c406120c5d0c236d2ef06d731c30666476889285f33f"
+            "url": "https://github.com/portapps/brave-portable/releases/download/1.0.1-41/brave-portable-win32-1.0.1-41.7z#/dl.7z",
+            "hash": "1ca652febe8a3b7bd3f7a70c37e317b15a62ef1e33a24221e479f765bce4f820"
         }
     },
     "bin": "brave-portable.exe",
