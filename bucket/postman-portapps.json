@@ -1,5 +1,5 @@
 {
-    "version": "7.11.0-24",
+    "version": "7.12.0-25",
     "description": "A complete toolchain for API developers.",
     "homepage": "https://www.getpostman.com/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/postman-portable/releases/download/7.11.0-24/postman-portable-win64-7.11.0-24.7z#/dl.7z",
-            "hash": "49e1d5254c7ae5cf99e7a88b19de3b51e2a33755a139029baa56909c01bad7c7"
+            "url": "https://github.com/portapps/postman-portable/releases/download/7.12.0-25/postman-portable-win64-7.12.0-25.7z#/dl.7z",
+            "hash": "81fcb4a3d46d5b7ad637e6d9e4afa18371242e8e3b879be14f6aeb24b89831e2"
         },
         "32bit": {
-            "url": "https://github.com/portapps/postman-portable/releases/download/7.11.0-24/postman-portable-win32-7.11.0-24.7z#/dl.7z",
-            "hash": "3761bddaacee50581e365599bdb9e5a01751a900742ba663e4c2ceca6899f9d1"
+            "url": "https://github.com/portapps/postman-portable/releases/download/7.12.0-25/postman-portable-win32-7.12.0-25.7z#/dl.7z",
+            "hash": "b121db4fc9a62a67fa38e40a6d3d876b89b2ca22aa4f01378c6ff1fd97b362b5"
         }
     },
     "bin": "postman-portable.exe",
