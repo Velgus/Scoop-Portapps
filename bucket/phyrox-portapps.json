@@ -29,7 +29,7 @@
     ],
     "pre_install": "if(!(Test-Path \"$persist_dir\\phyrox-portable.yml\")) { New-Item \"$dir\\phyrox-portable.yml\" | Out-Null }",
     "checkver": {
-        "url": "https://github.com/portapps/phyrox-esr-portable/releases",
+        "url": "https://github.com/portapps/phyrox-portable/releases",
         "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
     },
     "autoupdate": {
