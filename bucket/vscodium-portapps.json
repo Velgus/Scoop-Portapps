@@ -1,5 +1,5 @@
 {
-    "version": "1.40.1-31",
+    "version": "1.40.2-32",
     "description": "Free and open source software binaries of VSCode without MS branding/telemetry/licensing.",
     "homepage": "https://vscodium.com/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/vscodium-portable/releases/download/1.40.1-31/vscodium-portable-win64-1.40.1-31.7z#/dl.7z",
-            "hash": "760f5feca164e7da15023a9d70fa4d39d8ab7124459e2e8e7708c11f195d4071"
+            "url": "https://github.com/portapps/vscodium-portable/releases/download/1.40.2-32/vscodium-portable-win64-1.40.2-32.7z#/dl.7z",
+            "hash": "ea962fc0dac4478fa4d064b821884116f7797bf5b4f9c0f6624d572d16406e00"
         },
         "32bit": {
-            "url": "https://github.com/portapps/vscodium-portable/releases/download/1.40.1-31/vscodium-portable-win32-1.40.1-31.7z#/dl.7z",
-            "hash": "ff7745ab69000f08bc7729b90fe6b1469e7f8a0f37b0bb6af583dfd2f0faa0b1"
+            "url": "https://github.com/portapps/vscodium-portable/releases/download/1.40.2-32/vscodium-portable-win32-1.40.2-32.7z#/dl.7z",
+            "hash": "7b5b7c41fc53f1241f760c8e279bd5feaa7ddca2641faf06a38ed850ceb22fae"
         }
     },
     "bin": "vscodium-portable.exe",
