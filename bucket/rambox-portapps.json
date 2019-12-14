@@ -1,5 +1,5 @@
 {
-    "version": "0.7.2-5",
+    "version": "0.7.3-6",
     "description": "A workspace browser that allows you to manage as many applications as you want, all in one place.",
     "homepage": "https://rambox.pro/#ce",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/rambox-portable/releases/download/0.7.2-5/rambox-portable-win64-0.7.2-5.7z#/dl.7z",
-            "hash": "42e581ab3f70142920d1347ffaef626a5116f593aa559c0420a07f44380b851c"
+            "url": "https://github.com/portapps/rambox-portable/releases/download/0.7.3-6/rambox-portable-win64-0.7.3-6.7z#/dl.7z",
+            "hash": "1763145ed19c51cb8eb522b5e74a6a2356cc7cedb24f96902f0bc63f37b0e592"
         },
         "32bit": {
-            "url": "https://github.com/portapps/rambox-portable/releases/download/0.7.2-5/rambox-portable-win32-0.7.2-5.7z#/dl.7z",
-            "hash": "e52a6054632e87375567eaeefd762706b25c9f48639f6324a71354ec9596f1e8"
+            "url": "https://github.com/portapps/rambox-portable/releases/download/0.7.3-6/rambox-portable-win32-0.7.3-6.7z#/dl.7z",
+            "hash": "5caf1bf06c0cec4fef6b17438c67f3f34dd0d9c2fb3908468691f4b686b5b819"
         }
     },
     "bin": "qbittorrent-portable.exe",
