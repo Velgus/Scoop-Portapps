@@ -1,5 +1,5 @@
 {
-    "version": "68.2.1-16",
+    "version": "68.3.0-20",
     "description": "A free and open-source email client, news client and RSS client developed by the Mozilla Foundation.",
     "homepage": "https://www.thunderbird.net/en-US/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/stormhen-portable/releases/download/68.2.1-16/stormhen-portable-win64-68.2.1-16.7z#/dl.7z",
-            "hash": "01193f18f7ae89916236622dac06f3209b9cb5eea6ed5ab281702d0b2289970f"
+            "url": "https://github.com/portapps/stormhen-portable/releases/download/68.3.0-20/stormhen-portable-win64-68.3.0-20.7z#/dl.7z",
+            "hash": "3c8e2cd741c54f19bdfc23304f23e65ce7acf65bc7331c6772c97162eed3d544"
         },
         "32bit": {
-            "url": "https://github.com/portapps/stormhen-portable/releases/download/68.2.1-16/stormhen-portable-win32-68.2.1-16.7z#/dl.7z",
-            "hash": "3f23f359812357cf31d5d9d3bc930815d01a789d20ed1addb233f1ef6e4e73d4"
+            "url": "https://github.com/portapps/stormhen-portable/releases/download/68.3.0-20/stormhen-portable-win32-68.3.0-20.7z#/dl.7z",
+            "hash": "a5bb59d4b42962397fa9b700eca03f4ca4547a9ac9c9fd0fb2cae257d385aaae"
         }
     },
     "bin": "stormhen-portable.exe",
