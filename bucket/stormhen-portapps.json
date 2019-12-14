@@ -24,7 +24,7 @@
     "shortcuts": [
         [
             "stormhen-portable.exe",
-            "stormhen"
+            "Stormhen"
         ]
     ],
     "pre_install": "if(!(Test-Path \"$persist_dir\\stormhen-portable.yml\")) { New-Item \"$dir\\stormhen-portable.yml\" | Out-Null }",
