@@ -1,5 +1,5 @@
 {
-    "version": "70.0.1-30",
+    "version": "71.0-32",
     "description": "A free and open-source web browser developed by The Mozilla Foundation.",
     "homepage": "https://www.mozilla.org/en-US/firefox/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/phyrox-portable/releases/download/70.0.1-30/phyrox-portable-win64-70.0.1-30.7z#/dl.7z",
-            "hash": "20c8ec0431e213c73beab30f1d2ed80fa5170269adc7a69347f1eccc444562ea"
+            "url": "https://github.com/portapps/phyrox-portable/releases/download/71.0-32/phyrox-portable-win64-71.0-32.7z",
+            "hash": "a5d37310e08782c89ececf304030e910cff2743ef11a5a13ceb18d3ae0767078"
         },
         "32bit": {
-            "url": "https://github.com/portapps/phyrox-portable/releases/download/70.0.1-30/phyrox-portable-win32-70.0.1-30.7z#/dl.7z",
-            "hash": "81d6739c9c469e27b060da4db47c2473fb16662a6af3035525dee9a1104c6fc2"
+            "url": "https://github.com/portapps/phyrox-portable/releases/download/71.0-32/phyrox-portable-win32-71.0-32.7z#/dl.7z",
+            "hash": "f1cf0a88d8d258a27d27238a09ba574092a087a78343b94133b2c81649df88d0"
         }
     },
     "bin": "phyrox-portable.exe",
@@ -38,7 +38,7 @@
                 "url": "https://github.com/portapps/phyrox-portable/releases/download/$version/phyrox-portable-win64-$version.7z"
             },
             "32bit": {
-                "url": "https://github.com/portapps/phyrox-esr-portable/releases/download/$version/phyrox-esr-portable-win32-$version.7z#/dl.7z"
+                "url": "https://github.com/portapps/phyrox-portable/releases/download/$version/phyrox-portable-win32-$version.7z#/dl.7z"
             }
         },
         "hash": {
