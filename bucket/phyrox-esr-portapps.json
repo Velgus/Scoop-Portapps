@@ -1,5 +1,5 @@
 {
-    "version": "68.2.0-26",
+    "version": "68.3.0-28",
     "description": "Extended Support Release of Firefox web browser developed by The Mozilla Foundation.",
     "homepage": "https://www.mozilla.org/en-US/firefox/organizations/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/phyrox-esr-portable/releases/download/68.2.0-26/phyrox-esr-portable-win32-68.2.0-26.7z#/dl.7z",
-            "hash": "bf34538ce815d552e0fc4f9d266d0a8997da5441261b2b7b2265970a4e352143"
+            "url": "https://github.com/portapps/phyrox-esr-portable/releases/download/68.3.0-28/phyrox-esr-portable-win64-68.3.0-28.7z#/dl.7z",
+            "hash": "d998d3aeff534f6dfbd0d4ab46f2d86a1a893f9ab8ddd8040a7cbbb76643acb9"
         },
         "32bit": {
-            "url": "https://github.com/portapps/phyrox-esr-portable/releases/download/68.2.0-26/phyrox-esr-portable-win64-68.2.0-26.7z#/dl.7z",
-            "hash": "a66e400ace528ebcd61d1ef56484498076a89cfecbba1eeefffa5fa8494af311"
+            "url": "https://github.com/portapps/phyrox-esr-portable/releases/download/68.3.0-28/phyrox-esr-portable-win32-68.3.0-28.7z#/dl.7z",
+            "hash": "5166c0ee1a81bfcba3f65812c0dcb313ef0c0b201c3d8e3c74d9394243d84db4"
         }
     },
     "bin": "phyrox-esr-portable.exe",
