@@ -1,5 +1,5 @@
 {
-    "version": "3.0.7-6",
+    "version": "3.2.0-7",
     "description": "One of the world's foremost network protocol analyzers.",
     "homepage": "https://www.wireshark.org",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/wireshark-portable/releases/download/3.0.7-6/wireshark-portable-win64-3.0.7-6.7z#/dl.7z",
-            "hash": "3869cabc786d76bde539181a49872df910d47e6ce3d31a43abb429ceb7d1aca1"
+            "url": "https://github.com/portapps/wireshark-portable/releases/download/3.2.0-7/wireshark-portable-win64-3.2.0-7.7z#/dl.7z",
+            "hash": "faf5ed644850d1cd3b279722f693a7d1a78c5d119bddb77d76a9c8dd7872c16b"
         },
         "32bit": {
-            "url": "https://github.com/portapps/wireshark-portable/releases/download/3.0.7-6/wireshark-portable-win32-3.0.7-6.7z#/dl.7z",
-            "hash": "3ea94974831370deea44a9c93091677929f369b1708d95a353cdd8fdd80ed822"
+            "url": "https://github.com/portapps/wireshark-portable/releases/download/3.2.0-7/wireshark-portable-win32-3.2.0-7.7z#/dl.7z",
+            "hash": "74fa497468c0abab85287508bcf1b218c94bac44a582b69c7758c3f9256a3c2f"
         }
     },
     "bin": "wireshark-portable.exe",
