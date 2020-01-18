@@ -1,5 +1,5 @@
 {
-    "version": "6.3.0-22",
+    "version": "6.3.2-24",
     "description": "A free universal database tool and SQL client.",
     "homepage": "https://dbeaver.io",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/dbeaver-portable/releases/download/6.3.0-22/dbeaver-portable-win64-6.3.0-22.7z#/dl.7z",
-            "hash": "0480cf63b357697fe75add4a97a546208e6fca9a18e928f32c4daf9ab64d98e4"
+            "url": "https://github.com/portapps/dbeaver-portable/releases/download/6.3.2-24/dbeaver-portable-win64-6.3.2-24.7z#/dl.7z",
+            "hash": "fe9bcbddd267e984b09d7fab7e08dfe51d95ee37ea0017c2bcc127af87117bcf"
         }
     },
     "bin": "dbeaver-portable.exe",
