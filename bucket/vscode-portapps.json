@@ -1,5 +1,5 @@
 {
-    "version": "1.40.2-23",
+    "version": "1.41.1-25",
     "description": "A source code editor developed by Microsoft for Windows, Linux and macOS.",
     "homepage": "https://code.visualstudio.com",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/vscode-portable/releases/download/1.40.2-23/vscode-portable-win64-1.40.2-23.7z#/dl.7z",
-            "hash": "49f73135d87fa26710f81f3eed389f921f4065657963aa56f01cafa5e300eeee"
+            "url": "https://github.com/portapps/vscode-portable/releases/download/1.41.1-25/vscode-portable-win64-1.41.1-25.7z#/dl.7z",
+            "hash": "e922869992d6ba48a8dfd26f75b696225e33dcb0431c571f1408685ed5c9a386"
         },
         "32bit": {
-            "url": "https://github.com/portapps/vscode-portable/releases/download/1.40.2-23/vscode-portable-win32-1.40.2-23.7z#/dl.7z",
-            "hash": "eea2713fc3e654c58ccfafd54fe62e7326f8df0a912dec0c04984308589a9995"
+            "url": "https://github.com/portapps/vscode-portable/releases/download/1.41.1-25/vscode-portable-win32-1.41.1-25.7z#/dl.7z",
+            "hash": "987ec29d1bbd5af020da052c3fc8f477a81e4f7490b949413470ed710f145a6d"
         }
     },
     "bin": "vscode-portable.exe",
