@@ -1,5 +1,5 @@
 {
-    "version": "3.11.3259-5",
+    "version": "3.12.3423-6",
     "description": "An encrypted communications program.",
     "homepage": "https://wire.com/en/",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/wire-portable/releases/download/3.11.3259-5/wire-portable-win32-3.11.3259-5.7z#/dl.7z",
-            "hash": "222a1754a6dd61f42df83667b72cd1b76841044ed97be6460b662a335cff4fce"
+            "url": "https://github.com/portapps/wire-portable/releases/download/3.12.3423-6/wire-portable-win32-3.12.3423-6.7z#/dl.7z",
+            "hash": "c8d2b6c8b4a1ab8d1a2eb3eca5beaa4a11359f166b7c3a75502226412e3f4b13"
         }
     },
     "bin": "wire-portable.exe",
