@@ -1,5 +1,5 @@
 {
-    "version": "1.5.6-26",
+    "version": "1.5.7-27",
     "description": "An open source, free software instant messaging client based on the Matrix protocol.",
     "homepage": "https://about.riot.im/",
     "license": {
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/riot-portable/releases/download/1.5.6-26/riot-portable-win64-1.5.6-26.7z#/dl.7z",
-            "hash": "892ea7ecd3d86754ad059c491906f1d9d7396f07df0496d712eb664437d9c552"
+            "url": "https://github.com/portapps/riot-portable/releases/download/1.5.7-27/riot-portable-win64-1.5.7-27.7z#/dl.7z",
+            "hash": "5e626bdec984f2bde5c75b4a31097cbe60f01506bd3bb0655cb1449827f8ea17"
         },
         "32bit": {
-            "url": "https://github.com/portapps/riot-portable/releases/download/1.5.6-26/riot-portable-win32-1.5.6-26.7z#/dl.7z",
-            "hash": "4a42b33321017777d2cf383340ae164363f849a3a3a2b26da56f4c49d6289944"
+            "url": "https://github.com/portapps/riot-portable/releases/download/1.5.7-27/riot-portable-win32-1.5.7-27.7z#/dl.7z",
+            "hash": "c09f36f03512b5d0f38c3ef0d170b4bd0efd010b109bb8ca4b6e30aa67bed75c"
         }
     },
     "bin": "riot-portable.exe",
