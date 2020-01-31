@@ -1,13 +1,13 @@
 {
-    "version": "8u231-10",
+    "version": "8u241-12",
     "description": "Java Development Kit (JDK) is an implementation of the Java Platform released by Oracle Corporation.",
     "homepage": "https://www.oracle.com/technetwork/java/javase/downloads/index.html",
     "license": "https://www.oracle.com/downloads/licenses/standard-license.html",
     "persist": "oracle-jdk-portable.yml",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/oracle-jdk-portable/releases/download/8u231-10/oracle-jdk-portable-win64-8u231-10.7z#/dl.7z",
-            "hash": "0f9390d88319c86e73a2744195691ecacae0d31caf57d2d0bf5c612a57566d3d"
+            "url": "https://github.com/portapps/oracle-jdk-portable/releases/download/8u241-12/oracle-jdk-portable-win64-8u241-12.7z#/dl.7z",
+            "hash": "40da049335744461349817dca61a3e9636926e8539d1d722c8a6ca0d22a4507c"
         }
     },
     "bin": "oracle-jdk-portable.exe",
