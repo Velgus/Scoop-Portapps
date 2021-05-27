@@ -11,6 +11,6 @@ Installation
 Manifests
 --------
 
-All applications [available on Portapps](https://portapps.io/apps/) should have a corresponding manifest in this bucket. If you find this is not the case, please [create an issue](https://github.com/Velgus/Scoop-Portapps/issues/new).
+All applications [available on Portapps](https://portapps.io/apps/) should have a corresponding manifest in this bucket. If you find this is not the case, please [create an issue](https://github.com/Velgus/Scoop-Portapps/issues/new?assignees=&labels=request%2C+help+wanted&template=manifest_request.md&title=%5BRequest%5D+Add+%25%25applicationName%25%25).
 
 All Portapps manifests can be listed with: `scoop search portapps`
