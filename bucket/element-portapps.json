@@ -1,5 +1,5 @@
 {
-    "version": "1.7.27-40",
+    "version": "1.8.1-41",
     "description": "An open source, free software instant messaging client based on the Matrix protocol.",
     "homepage": "https://element.io/",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/element-portable/releases/download/1.7.27-40/element-portable-win64-1.7.27-40.7z#/dl.7z",
-            "hash": "cc91e0bef3cc57d4d1e6125a1dacaf468350a4c5222fe12e08801379e6557ccd"
+            "url": "https://github.com/portapps/element-portable/releases/download/1.8.1-41/element-portable-win64-1.8.1-41.7z#/dl.7z",
+            "hash": "9dbd1c35a44401277d1f8e8619d5ddc953c52eaff8e05b24c190c952b930510e"
         }
     },
     "bin": "element-portable.exe",
