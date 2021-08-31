@@ -1,13 +1,13 @@
 {
-    "version": "0.0.309-8",
+    "version": "1.0.9002-9",
     "description": "A proprietary freeware VoIP application designed for gaming communities.",
     "homepage": "https://discordapp.com/",
     "license": {
         "identifier": "Freeware",
         "url": "https://discordapp.com/terms"
     },
-    "url": "https://github.com/portapps/discord-portable/releases/download/0.0.309-8/discord-portable-win32-0.0.309-8.7z#/dl.7z",
-    "hash": "db29457f05af72959b3dcb42b940cd2923a3e176fefe6f866e4e9e1dcb257dda",
+    "url": "https://github.com/portapps/discord-portable/releases/download/1.0.9002-9/discord-portable-win32-1.0.9002-9.7z#/dl.7z",
+    "hash": "3f398f6aba9fb80d640913a895208ffcb6b63a8568c6cf2a23a93749b2cecdbd",
     "persist": [
         "data",
         "discord-portable.yml"
