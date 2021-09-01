@@ -1,5 +1,5 @@
 {
-    "version": "2.2123.7-30",
+    "version": "2.2132.6-31",
     "description": "A cross-platform mobile messaging app which allows you to exchange messages without having to pay for SMS.",
     "homepage": "https://www.whatsapp.com",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/whatsapp-portable/releases/download/2.2123.7-30/whatsapp-portable-win64-2.2123.7-30.7z#/dl.7z",
-            "hash": "a65c8757c96af7854bf1e37e3fa484a83b5f8c22f905b4e29baaf97b16f13180"
+            "url": "https://github.com/portapps/whatsapp-portable/releases/download/2.2132.6-31/whatsapp-portable-win64-2.2132.6-31.7z#/dl.7z",
+            "hash": "425158dee4f6b6d379801e6ffab0e8fa05dc22aa627f552ffea421896800f84b"
         }
     },
     "bin": "whatsapp-portable.exe",
