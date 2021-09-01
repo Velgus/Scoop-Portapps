@@ -1,13 +1,13 @@
 {
-    "version": "1.0.148-5",
+    "version": "1.0.155-6",
     "description": "A terminal for a more modern age.",
     "homepage": "https://tabby.sh/",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/Eugeny/tabby/blob/master/LICENSE"
     },
-    "url": "https://github.com/portapps/tabby-portable/releases/download/1.0.148-5/tabby-portable-win64-1.0.148-5.7z#/dl.7z",
-    "hash": "0b0f3bcc4a3c0ca301d950a98f9c1b1c5ff0ebf396d2a3add0a32e73ea4cad60",
+    "url": "https://github.com/portapps/tabby-portable/releases/download/1.0.155-6/tabby-portable-win64-1.0.155-6.7z#/dl.7z",
+    "hash": "010c2b580e229815237d345b7b13b7061fcff564ce67f1f6b088dcd3690cd9eb",
     "persist": [
         "data",
         "tabby-portable.yml"
