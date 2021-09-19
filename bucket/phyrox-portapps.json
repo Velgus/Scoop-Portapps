@@ -1,5 +1,5 @@
 {
-    "version": "90.0.2-58",
+    "version": "92.0-59",
     "description": "A free and open-source web browser developed by The Mozilla Foundation.",
     "homepage": "https://www.mozilla.org/en-US/firefox/",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/phyrox-portable/releases/download/90.0.2-58/phyrox-portable-win64-90.0.2-58.7z",
-            "hash": "a7d61a06238bd18c25c09b0617a09019d7e8cf7452d279c82d34b225c95732dd"
+            "url": "https://github.com/portapps/phyrox-portable/releases/download/92.0-59/phyrox-portable-win64-92.0-59.7z",
+            "hash": "e39939bc7104d29bf0ee13b3d30a61c583814aa78a16f536d3d46ac2fcfac506"
         }
     },
     "bin": "phyrox-portable.exe",
