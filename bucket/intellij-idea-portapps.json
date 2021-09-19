@@ -1,5 +1,5 @@
 {
-    "version": "2021.1.2-48",
+    "version": "2021.2.2-48",
     "description": "Cross-Platform Java IDE for professional developers by JetBrains.",
     "homepage": "https://www.jetbrains.com/idea/",
     "license": {
@@ -13,8 +13,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/intellij-idea-community-portable/releases/download/2021.1.2-48/intellij-idea-community-portable-win64.exe",
-            "hash": "00ad430251457d0feed0361d3cacadc4d34708b2c7ad754bbc9bf930e03ee9bd",
+            "url": "https://github.com/portapps/intellij-idea-community-portable/releases/download/2021.2.2-48/intellij-idea-community-portable-win64.exe",
+            "hash": "9cb693582681702bea106af22e6edba88609644758e2cca83d36f360a2daa18c",
             "bin": "intellij-idea-community-portable-win64.exe",
             "shortcuts": [
                 [
