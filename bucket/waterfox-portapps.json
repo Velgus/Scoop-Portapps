@@ -1,5 +1,5 @@
 {
-    "version": "2021.06-24",
+    "version": "2021.08.1-26",
     "description": "An open-source web browser intended to be speedy, ethical and maintain support for legacy extensions.",
     "homepage": "https://www.waterfox.net",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/waterfox-portable/releases/download/2021.06-24/waterfox-portable-win64-2021.06-24.7z#/dl.7z",
-            "hash": "2915380abbdd287ec51c1fd49a9b506b499ea635177685397fdf37e9443234c9"
+            "url": "https://github.com/portapps/waterfox-portable/releases/download/2021.08.1-26/waterfox-portable-win64-2021.08.1-26.7z#/dl.7z",
+            "hash": "d90e567cac4b6e01bad66078e4f3d49c1f8ecd7eb694412f45da2f2867c79cd5"
         }
     },
     "bin": "waterfox-portable.exe",
