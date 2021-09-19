@@ -1,5 +1,5 @@
 {
-    "version": "2021.1.2-34",
+    "version": "2021.2.2-35",
     "description": "Cross-Platform Java IDE for professional developers by JetBrains.",
     "homepage": "https://www.jetbrains.com/idea/",
     "license": {
@@ -13,8 +13,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/intellij-idea-ultimate-portable/releases/download/2021.1.2-34/intellij-idea-ultimate-portable-win64.exe",
-            "hash": "bbb4482023dd60358ea2f75feec669462c99c654340681d3073ad7603441f654",
+            "url": "https://github.com/portapps/intellij-idea-ultimate-portable/releases/download/2021.2.2-35/intellij-idea-ultimate-portable-win64.exe",
+            "hash": "62f164ac144c265ad42b1339ae8dbbfdc38f393919ac2e547654b38f28a9494b",
             "bin": "intellij-idea-ultimate-portable-win64.exe",
             "shortcuts": [
                 [
