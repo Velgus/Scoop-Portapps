@@ -1,5 +1,5 @@
 {
-    "version": "91.0b6-42",
+    "version": "93.0b6-43",
     "description": "Developer Edition of Firefox web browser developed by The Mozilla Foundation.",
     "homepage": "https://www.mozilla.org/en-US/firefox/developer/",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/portapps/phyrox-developer-portable/releases/download/91.0b6-42/phyrox-developer-portable-win64-91.0b6-42.7z#/dl.7z",
-            "hash": "2287fa991836f5993624037084d96c2cc509e4ee327b119662fd4d4e2931b4f6"
+            "url": "https://github.com/portapps/phyrox-developer-portable/releases/download/93.0b6-43/phyrox-developer-portable-win64-93.0b6-43.7z#/dl.7z",
+            "hash": "58e23b9d966323c296099be5b44c5f38ff9ca0771ea8456a7cba70638d659574"
         }
     },
     "bin": "phyrox-developer-portable.exe",
