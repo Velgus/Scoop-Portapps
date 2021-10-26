@@ -1,13 +1,13 @@
 {
-    "version": "1.0.1008-16",
+    "version": "1.0.1010-17",
     "description": "A proprietary freeware VoIP application designed for gaming communities.",
     "homepage": "https://discordapp.com/",
     "license": {
         "identifier": "Freeware",
         "url": "https://discordapp.com/terms"
     },
-    "url": "https://github.com/portapps/discord-ptb-portable/releases/download/1.0.1008-16/discord-ptb-portable-win32-1.0.1008-16.7z#/dl.7z",
-    "hash": "2cead704502148d893a1b5da203e23e30853c878dcf24629e9d2fdd8c7521eb0",
+    "url": "https://github.com/portapps/discord-ptb-portable/releases/download/1.0.1010-17/discord-ptb-portable-win32-1.0.1010-17.7z#/dl.7z",
+    "hash": "6937dcb450a6fa0dea83529f1f901971dd88d6e233c05a18c4dfecd27f0bf799",
     "persist": [
         "data",
         "discord-ptb-portable.yml"
