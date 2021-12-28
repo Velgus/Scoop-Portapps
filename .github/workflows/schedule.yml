@@ -1,14 +1,14 @@
 on:
   schedule:
-  - cron: '0 * * * *'
+  - cron: '*/0 * * * *'
 name: Excavator
 jobs:
   excavate:
     name: Excavator
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@main
-    - name: Excavate
+    - name: Excavator
       uses: shovel-org/GithubActions@main
       env:
         GITH_EMAIL: services@ziranox.com
