@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Excavate
-      uses: Ash258/Scoop-GithubActions@stable
+      uses: shovel-org/GithubActions@main
       env:
         GITH_EMAIL: services@ziranox.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
