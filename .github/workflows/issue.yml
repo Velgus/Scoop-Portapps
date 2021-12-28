@@ -14,3 +14,4 @@ jobs:
       env:
         GITH_EMAIL: services@ziranox.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
